@@ -2,9 +2,9 @@
 
 > ## **2020.1.11**
 
-- [Two Sum](https://leetcode-cn.com/problems/two-sum/)
-- [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)
+- [Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/problems/hash/0001.Two%20Sum.md)
+- [Add Two Numbers](https://github.com/Diobrandokill/leetcode-notes/blob/master/problems/linkedlist/0002.Add%20Two%20Numbers.md)
 
 > ## **2020.5.22**
-- [0105.Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [0105.Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Diobrandokill/leetcode-notes/blob/master/problems/tree/0105.Construct%Binary%Tree%from%Preorder%and%Inorder%Traversal.md)
 
