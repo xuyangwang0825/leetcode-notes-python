@@ -1,5 +1,7 @@
 # Leetcode刷题之路
 
+![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)=
+
 > ## **2020.1.11**
 
 - [Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/problems/hash/0001.Two%20Sum.md)
