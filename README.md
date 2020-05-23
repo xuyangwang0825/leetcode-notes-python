@@ -1,4 +1,4 @@
-# Leetcode刷题之路
+# Leetcode刷刷刷刷tmd
 
 ![lalala](https://img.shields.io/badge/diobrando-leeeeeetcode%EF%BC%81-blue) ![lalala](https://img.shields.io/badge/giao-%E7%89%9B%E4%BB%94%E5%BE%88%E5%BF%99%EF%BC%81%F0%9F%A4%A0-red)
 
