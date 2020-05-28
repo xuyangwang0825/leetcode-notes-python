@@ -17,3 +17,5 @@
 - [0287.Find the Duplicate Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0287.%20Find%20the%20Duplicate%20Number.md/) - 2020.5.26
 - [0974.Subarray Sums Divisible by K](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0974.Subarray%20Sums%20Divisible%20by%20K.md/) - 2020.5.27
 - [0394.Decode String](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0394.Decode%20String.md/) - 2020.5.28
+![medium tag](https://img.shields.io/badge/-medium-yellow)
+![hard tag](https://img.shields.io/badge/-hard-red)
