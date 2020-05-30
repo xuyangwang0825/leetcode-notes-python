@@ -18,5 +18,5 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0974.Subarray Sums Divisible by K](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0974.Subarray%20Sums%20Divisible%20by%20K.md/) - 2020.5.27
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0394.Decode String](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0394.Decode%20String.md/) - 2020.5.28 
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0198.House Robber](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0198.House%20Robber.md) - 2020.5.29  
-- ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.largest%20rectangle%20in%20histogram.md) - 2020.5.30
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896monotonic%20array.md) - 2020.5.30
+- ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.Largest%20Rectangle%20in%20Histogram.md) - 2020.5.30
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
