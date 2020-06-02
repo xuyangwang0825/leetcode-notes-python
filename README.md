@@ -21,4 +21,4 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.Largest%20Rectangle%20in%20Histogram.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0101.Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.Symmetric%20Tree.md) - 2020.5.31
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0064.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/面试题64.求1+2+…+n.md) - 2020.6.2
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0064.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/面试题0064.求1+2+…+n.md) - 2020.6.2
