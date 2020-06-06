@@ -7,7 +7,7 @@
 
 > ## **2020.1**
 
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0001.Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0001.Two%20Sum.md) - 2020.1.11  
+-   ![easytag](https://img.shields.io/badge/-easy-brightgreen)   [0001.Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0001.Two%20Sum.md) - 2020.1.11  
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0002.Add Two Numbers](https://github.com/Diobrandokill/leetcode-notes/blob/master/linked%20list/0002.Add%20Two%20Numbers.md) - 2020.1.11 
 
 > ## **2020.5**
