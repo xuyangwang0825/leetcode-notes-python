@@ -27,3 +27,6 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0054.Spiral Matrix](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0054.Spiral%20matrix.md) - 2020.6.5
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0128.Longest Consecutive Sequence](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0128.Longest%20Consecutive%20Sequence.md) - 2020.6.6
+
+- ![hard tag](https://img.shields.io/badge/-hard-red) [0126.Word Ladder II](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0126.Word%20Ladder%20II.md) - 2020.6.7
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0127.Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.Word%20Ladder.md) - 2020.6.7
