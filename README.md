@@ -3,7 +3,7 @@
 ![lalala](https://img.shields.io/badge/diobrando-leeeeeetcode%EF%BC%81-blue) ![lalala](https://img.shields.io/badge/giao-%E7%89%9B%E4%BB%94%E5%BE%88%E5%BF%99%EF%BC%81%F0%9F%A4%A0-red)
 
 ![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)
-# **TOTAL NUM** : 17/1669
+# **TOTAL NUM** : 20/1669
 
 > ## **2020.1**
 
@@ -27,6 +27,5 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0054.Spiral Matrix](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0054.Spiral%20matrix.md) - 2020.6.5
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0128.Longest Consecutive Sequence](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0128.Longest%20Consecutive%20Sequence.md) - 2020.6.6
-
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0126.Word Ladder II](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0126.Word%20Ladder%20II.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0127.Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.Word%20Ladder.md) - 2020.6.7
