@@ -22,12 +22,13 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.Largest%20Rectangle%20in%20Histogram.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0101.Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.Symmetric%20Tree.md) - 2020.5.31
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0064.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/面试题64.求1+2+…+n.md) - 2020.6.2
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0064.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/面试题64.求1+2+…+n.md) - 2020.6.2
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0837.New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.New%2021%20Game.md) - 2020.6.3
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/other/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0054.Spiral Matrix](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0054.Spiral%20matrix.md) - 2020.6.5
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0128.Longest Consecutive Sequence](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0128.Longest%20Consecutive%20Sequence.md) - 2020.6.6
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0126.Word Ladder II](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0126.Word%20Ladder%20II.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0127.Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.Word%20Ladder.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0990.Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set/0990.Satisfiability%20of%20Equality%20Equations.md) - 2020.6.8
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0046.把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/面试题0046.把数字翻译成字符串.md) - 2020.6.9
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0009.Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/Palindrome%20Number.md) - 2020.6.10
