@@ -31,4 +31,4 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0127.Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.Word%20Ladder.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0990.Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set/0990.Satisfiability%20of%20Equality%20Equations.md) - 2020.6.8
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0046.把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/面试题0046.把数字翻译成字符串.md) - 2020.6.9
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0009.Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/Palindrome%20Number.md) - 2020.6.10
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0009.Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0009.Palindrome%20Number.md) - 2020.6.10
