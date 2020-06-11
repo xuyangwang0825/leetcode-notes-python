@@ -3,7 +3,7 @@
 ![lalala](https://img.shields.io/badge/diobrando-leeeeeetcode%EF%BC%81-blue) ![lalala](https://img.shields.io/badge/giao-%E7%89%9B%E4%BB%94%E5%BE%88%E5%BF%99%EF%BC%81%F0%9F%A4%A0-red)
 
 ![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)
-# **TOTAL NUM** : 22/1669
+# **TOTAL NUM** : 25/1669
 
 > ## **2020.1**
 
@@ -32,3 +32,6 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0990.Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set/0990.Satisfiability%20of%20Equality%20Equations.md) - 2020.6.8
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0046.把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/面试题0046.把数字翻译成字符串.md) - 2020.6.9
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0009.Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0009.Palindrome%20Number.md) - 2020.6.10
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0496.Next Greater Element I]((https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0496.Next%20Greater%20Element%20I.md)) - 2020.6.11
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0503.Next Greater Element II](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0503.Next%20Greater%20Element%20II.md) - 2020.6.11
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0739.Daily Temperatures](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0739.Daily%20Temperatures.md) - 2020.6.11
