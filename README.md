@@ -37,4 +37,4 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0739.Daily Temperatures](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0739.Daily%20Temperatures.md) - 2020.6.11
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0015.3Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0015.3Sum.md/) - 2020.6.12
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0070.Climbing Stairs](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0070.Climbing%20Stairs.md) - 2020.6.13
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0005.Longest Palindromic Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/005.Longest%20Palindromic%20Substring.md/) - 2020.6.13
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0005.Longest Palindromic Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0005.Longest%20Palindromic%20Substring.md/) - 2020.6.13
