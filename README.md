@@ -38,3 +38,5 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0015.3Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0015.3Sum.md/) - 2020.6.12
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0070.Climbing Stairs](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0070.Climbing%20Stairs.md) - 2020.6.13
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0005.Longest Palindromic Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0005.Longest%20Palindromic%20Substring.md/) - 2020.6.13
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [1300.Sum of Mutated Array Closest to Target](https://github.com/Diobrandokill/leetcode-notes/blob/master/binary%20search/1300.Sum%20of%20Mutated%20Array%20Closest%20to%20Target.md) - 2020.6.14 
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0014.Longest Common Prefix](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0014.Longest%20Common%20Prefix.md) - 2020.6.15 
