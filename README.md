@@ -15,9 +15,9 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0076.Minimum Window Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/sliding%20window/0076.Minimum%20Window%20Substring.md) - 2020.5.23 
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0004.Median of Two Sorted Arrays](https://github.com/Diobrandokill/leetcode-notes/blob/master/binary%20search/0004.Median%20of%20Two%20Sorted%20Arrays.md) - 2020.5.24 
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0146.LRU Cache](https://github.com/Diobrandokill/leetcode-notes/blob/master/linked%20list/0146.LRU%20Cache.md) - 2020.5.25 
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0287.Find the Duplicate Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0287.Find%20the%20Duplicate%20Number.md/) - 2020.5.26 
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0974.Subarray Sums Divisible by K](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0974.Subarray%20Sums%20Divisible%20by%20K.md/) - 2020.5.27
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0394.Decode String](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0394.Decode%20String.md/) - 2020.5.28 
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0287.Find the Duplicate Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0287.Find%20the%20Duplicate%20Number.md) - 2020.5.26 
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0974.Subarray Sums Divisible by K](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0974.Subarray%20Sums%20Divisible%20by%20K.md) - 2020.5.27
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0394.Decode String](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0394.Decode%20String.md) - 2020.5.28 
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0198.House Robber](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0198.House%20Robber.md) - 2020.5.29  
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.Largest%20Rectangle%20in%20Histogram.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
@@ -35,9 +35,10 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0496.Next Greater Element I](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0496.Next%20Greater%20Element%20I.md) - 2020.6.11
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0503.Next Greater Element II](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0503.Next%20Greater%20Element%20II.md) - 2020.6.11
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0739.Daily Temperatures](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0739.Daily%20Temperatures.md) - 2020.6.11
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0015.3Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0015.3Sum.md/) - 2020.6.12
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0015.3Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/double%20pointers/0015.3Sum.md) - 2020.6.12
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0070.Climbing Stairs](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0070.Climbing%20Stairs.md) - 2020.6.13
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0005.Longest Palindromic Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0005.Longest%20Palindromic%20Substring.md/) - 2020.6.13
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [0005.Longest Palindromic Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0005.Longest%20Palindromic%20Substring.md) - 2020.6.13
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [1300.Sum of Mutated Array Closest to Target](https://github.com/Diobrandokill/leetcode-notes/blob/master/binary%20search/1300.Sum%20of%20Mutated%20Array%20Closest%20to%20Target.md) - 2020.6.14 
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0014.Longest Common Prefix](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0014.Longest%20Common%20Prefix.md) - 2020.6.15 
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [1014.Best Sightseeing Pair](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/1014.Best%20Sightseeing%20Pair.md) - 2020.6.17
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0125.Valid Palindrome](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0125.Valid%20Palindrome.md) - 2020.6.19
