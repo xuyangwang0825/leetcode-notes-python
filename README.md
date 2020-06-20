@@ -42,3 +42,4 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0014.Longest Common Prefix](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0014.Longest%20Common%20Prefix.md) - 2020.6.15 
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [1014.Best Sightseeing Pair](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/1014.Best%20Sightseeing%20Pair.md) - 2020.6.17
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0125.Valid Palindrome](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0125.Valid%20Palindrome.md) - 2020.6.19
+- ![hard tag](https://img.shields.io/badge/-hard-red) [0010.Regular Expression Matching](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0010.Regular%20Expression%20Matching.md) - 2020.6.20
