@@ -3,7 +3,7 @@
 ![lalala](https://img.shields.io/badge/diobrando-leeeeeetcode%EF%BC%81-blue) ![lalala](https://img.shields.io/badge/giao-%E7%89%9B%E4%BB%94%E5%BE%88%E5%BF%99%EF%BC%81%F0%9F%A4%A0-red)
 
 ![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)
-# **TOTAL NUM** : 26/1669
+# **TOTAL NUM** : 34/1669
 
 > ## **2020.1**
 
