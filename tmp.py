@@ -1,9 +1,13 @@
-def getNthFib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return (getNthFib(n-1) + getNthFib(n-2))
 
-print(getNthFib(6))
+def findRepeatNumber(nums):
+    i = 0
+    while i < len(nums):
+        if nums[i] == i:
+            i += 1
+            continue
+        if nums[nums[i]] == nums[i]: return nums[i]
+        nums[nums[i]], nums[i] = nums[i], nums[nums[i]]
+    return -1
+
+nums = [2, 3, 1, 1, 2, 5, 3]
+print(findRepeatNumber(nums))
