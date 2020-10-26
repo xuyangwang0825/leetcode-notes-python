@@ -52,3 +52,6 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 06.从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) - 2020.10.25
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 07.重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) - 2020.10.25
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 09.用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10-II.青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) - 2020.10.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 11.旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) - 2020.10.26
