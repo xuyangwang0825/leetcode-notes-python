@@ -4,7 +4,7 @@
 
 ![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)
 > 题目来源：力扣（LeetCode）
-# **TOTAL NUM** : 46/1843
+# **TOTAL NUM** : 44/1843
 
 > ## **2020.1**
 
@@ -47,13 +47,13 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0010.Regular Expression Matching](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0010.Regular%20Expression%20Matching.md) - 2020.6.20
 
 > ## **2020.10**
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 03.数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 04.二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 06.从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) - 2020.10.25
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 07.重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 09.用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) - 2020.10.25
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10-II.青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) - 2020.10.26
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 11.旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) - 2020.10.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 12.矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) - 2020.10.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 03.数组中重复的数字](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/03.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 04.二维数组中的查找](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/04.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 05. 替换空格](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/05.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 06.从尾到头打印链表](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/06.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md) - 2020.10.25
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 07.重建二叉树](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/07.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 09.用两个栈实现队列](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/09.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10- I. 斐波那契数列](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/10-I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md) - 2020.10.25
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 10-II.青蛙跳台阶问题](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/10-II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md) - 2020.10.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 11.旋转数组的最小数字](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/11.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md) - 2020.10.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 12.矩阵中的路径](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/12.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md) - 2020.10.26
