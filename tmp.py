@@ -1,15 +1,13 @@
 class Solution:
-    def exist(self, board, word):
-        start = []
-        for i in range(len(board)):
-            for j in range(len(board[i])):
-                if board[i][j] == word[0]:
-                    start.append((i,j))
-        for s in start:
-            stp = board[s[0]][s[1]]
-            print(stp)
+    visited = set()
+    m,n,k =0,0,0
+    def dfs(self,i,j,si,sj):
+        if i >= self.m or j >= self.n or self.k < si + sj or (i,j) in self.visited: return 0
+        self.visited.add((i,j))
+        return 1 + self.dfs(i+1,j,si+1 if (i+1) % 10 else si-8,sj) + self.dfs(i,j+1,si,sj+1 if (j+1) % 10 else sj-8)
+    def movingCount(self, m: int, n: int, k: int) -> int:
+        self.m,self.n,self.k = m,n,k
+        return self.dfs(0,0,0,0)
 
 sol = Solution()
-board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
-word = "ABCCED"
-sol.exist(board,word)
+print(sol.movingCount(3,2,17))
