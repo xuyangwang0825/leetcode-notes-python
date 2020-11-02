@@ -1,9 +1,11 @@
 class Solution:
-    def cuttingRope(self, n: int) -> int:
-        i = n // 3
-        j = n % 3
-        res = max(pow(3,i),pow(2,k)
-        return res * j if i != 0 else 1
+    def hammingWeight(self, n: int) -> int:
+        res = 0
+        while n > 1:
+            res += n % 2
+            n //= 2
+        res += 1
+        return res
 
 sol = Solution()
-print(sol.cuttingRope(10))
+print(sol.hammingWeight(11))
