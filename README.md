@@ -60,4 +60,4 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 13.机器人的运动范围](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/13.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md) - 2020.10.28
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 14- I.剪绳子](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md) - 2020.10.30
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 14- II.剪绳子 II](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md)- 2020.11.1
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 15.二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) - 2020.11.2
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 15.二进制中1的个数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/15.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md) - 2020.11.2
