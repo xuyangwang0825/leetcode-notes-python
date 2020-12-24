@@ -25,7 +25,7 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0101.Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.Symmetric%20Tree.md) - 2020.5.31
 > ## **2020.6**
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 64.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/面试题64.求1+2+…+n.md) - 2020.6.2
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 64.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/%20%E5%89%91%E6%8C%87Offer/64.%E6%B1%821%2B2%2B%E2%80%A6%2Bn.md) - 2020.6.2
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0837.New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.New%2021%20Game.md) - 2020.6.3
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0054.Spiral Matrix](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0054.Spiral%20matrix.md) - 2020.6.5
@@ -33,7 +33,7 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0126.Word Ladder II](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0126.Word%20Ladder%20II.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0127.Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.Word%20Ladder.md) - 2020.6.7
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0990.Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set/0990.Satisfiability%20of%20Equality%20Equations.md) - 2020.6.8
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 46.把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/面试题0046.把数字翻译成字符串.md) - 2020.6.9
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 46.把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/46.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md) - 2020.6.9
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0009.Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0009.Palindrome%20Number.md) - 2020.6.10
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0496.Next Greater Element I](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0496.Next%20Greater%20Element%20I.md) - 2020.6.11
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0503.Next Greater Element II](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0503.Next%20Greater%20Element%20II.md) - 2020.6.11
