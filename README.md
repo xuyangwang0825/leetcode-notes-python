@@ -25,7 +25,7 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0101.Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.Symmetric%20Tree.md) - 2020.5.31
 > ## **2020.6**
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 64.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/%20%E5%89%91%E6%8C%87Offer/64.%E6%B1%821%2B2%2B%E2%80%A6%2Bn.md) - 2020.6.2
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 64.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/64.%20%E6%B1%821%2B2%2B%E2%80%A6%2Bn.md) - 2020.6.2
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0837.New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.New%2021%20Game.md) - 2020.6.3
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0054.Spiral Matrix](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0054.Spiral%20matrix.md) - 2020.6.5
