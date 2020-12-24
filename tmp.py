@@ -1,14 +1,25 @@
 class Solution:
-    def isBalanced(self, root: TreeNode) -> bool:
-        def isB(root: TreeNode):
-            if not root.left == None and root.right == None :
-                root.val = 1
-            l, r = isB(root.left), isB(root.right)
-            if l - r not in (0,-1,1): return False
-            root. val = max(1+l,1+r)
-        isB(root)
-        return True
+    def isMatch(self, s: str, p: str) -> bool:
+        i,j = 0,0
+        while j < len(p):
+            pre = p[j]
+            if j+1 < len(p): cur = p[j+1]
+            if j != len(p)-1 and cur == '*':
+                while i < len(s) and (s[i] == pre or pre == '.'): i += 1
+                if i == len(s): return False
+                j += 2
+            else:
+                if pre not in ('.','*'):
+                    if s[i] and pre == s[i]:
+                        i,j = i+1,j+1
+                    else: return False
+                elif pre == '.':
+                    if s[i]:
+                        i,j = i+1,j+1
+                    else: return False
+        if i == len(s): return True
+        else:return False
+
 
 sol = Solution()
-print(sol.myPow(2.00000,10))
-print(sol.myPow2(2.00000,10))
+print(sol.isMatch("ab",".*c"))

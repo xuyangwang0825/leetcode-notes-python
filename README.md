@@ -24,6 +24,7 @@
 - ![hard tag](https://img.shields.io/badge/-hard-red) [0084.Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.Largest%20Rectangle%20in%20Histogram.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0896.Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.Monotonic%20Array.md) - 2020.5.30
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0101.Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.Symmetric%20Tree.md) - 2020.5.31
+> ## **2020.6**
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [面试题0064.求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/面试题64.求1+2+…+n.md) - 2020.6.2
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0837.New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.New%2021%20Game.md) - 2020.6.3
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [0238.Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.Product%20of%20Array%20Except%20Self.md) - 2020.6.4
@@ -59,8 +60,11 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 12.矩阵中的路径](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/12.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md) - 2020.10.26
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 13.机器人的运动范围](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/13.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md) - 2020.10.28
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 14- I.剪绳子](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md) - 2020.10.30
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 14- II.剪绳子 II](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md)- 2020.11.1
+> ## **2020.11**
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 14- II.剪绳子 II](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md) - 2020.11.1
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 15.二进制中1的个数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/15.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md) - 2020.11.2
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 16.数值的整数次方](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/16.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)- 2020.11.4
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 17.打印从1到最大的n位数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/16.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)- 2020.11.9
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 18. 删除链表的节点](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/16.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)- 2020.12.17
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指offer 16.数值的整数次方](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/16.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md) - 2020.11.4
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指offer 17.打印从1到最大的n位数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/17.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md) - 2020.11.9
+> ## **2020.12**
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 18. 删除链表的节点](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/18.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) - 2020.12.17
+- ![hard tag](https://img.shields.io/badge/-hard-red) [剑指 Offer 19.正则表达式匹配]() - 2020.12.24
