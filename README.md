@@ -4,7 +4,7 @@
 
 ![](http://markdown.diobrando0825.cn/2020-05-22-161942.jpg)
 > 题目来源：力扣（LeetCode）
-# **TOTAL NUM** : 63/1909
+# **TOTAL NUM** : 69/1909
 
 > ## **2020.1**
 
