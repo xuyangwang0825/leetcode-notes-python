@@ -79,15 +79,15 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 29.顺时针打印矩阵](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/29.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.md) - 2020.12.25
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 30.包含min函数的栈](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/30.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md) - 2020.12.25
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 31.栈的压入、弹出序列](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/31.%20%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97.md) - 2020.12.25
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 32-I.从上到下打印二叉树]() - 2020.12.26
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 32-II.从上到下打印二叉树 II]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 32-III.从上到下打印二叉树 III]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 33.二叉搜索树的后序遍历序列]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 34.二叉树中和为某一值的路径]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 35.复杂链表的复制]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 36.二叉搜索树与双向链表]() - 2020.12.26
-- ![hard tag](https://img.shields.io/badge/-hard-red) [剑指 Offer 37.序列化二叉树]() - 2020.12.26
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 38.字符串的排列]() - 2020.12.26
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 39.数组中出现次数超过一半的数字]() - 2020.12.26
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 40. 最小的k个数]() - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 32-I.从上到下打印二叉树](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/32%20-%20I.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) - 2020.12.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 32-II.从上到下打印二叉树 II](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/32%20-%20II.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20II.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 32-III.从上到下打印二叉树 III](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/32%20-%20III.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20III.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 33.二叉搜索树的后序遍历序列](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/33.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 34.二叉树中和为某一值的路径](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/34.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 35.复杂链表的复制](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/35.%20%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 36.二叉搜索树与双向链表](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/36.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md) - 2020.12.26
+- ![hard tag](https://img.shields.io/badge/-hard-red) [剑指 Offer 37.序列化二叉树](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/37.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md) - 2020.12.26
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 38.字符串的排列](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/38.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md) - 2020.12.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 39.数组中出现次数超过一半的数字](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/39.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md) - 2020.12.26
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 40. 最小的k个数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/40.%20%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0.md) - 2020.12.26
 
