@@ -1,5 +1,7 @@
 {
     "cSpell.ignoreWords": [
-        "fullmatch"
+        "deepcopy",
+        "fullmatch",
+        "postorder"
     ]
 }

@@ -1,25 +1,31 @@
+
+# Definition for a Node.
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
-    def isMatch(self, s: str, p: str) -> bool:
-        i,j = 0,0
-        while j < len(p):
-            pre = p[j]
-            if j+1 < len(p): cur = p[j+1]
-            if j != len(p)-1 and cur == '*':
-                while i < len(s) and (s[i] == pre or pre == '.'): i += 1
-                if i == len(s): return False
-                j += 2
-            else:
-                if pre not in ('.','*'):
-                    if s[i] and pre == s[i]:
-                        i,j = i+1,j+1
-                    else: return False
-                elif pre == '.':
-                    if s[i]:
-                        i,j = i+1,j+1
-                    else: return False
-        if i == len(s): return True
-        else:return False
-
-
+    def treeToDoublyList(self, root: 'Node') -> 'Node':
+        def dfs(cur):
+            if not cur: return
+            dfs(cur.left) # 递归左子树
+            if self.pre: # 修改节点引用
+                self.pre.right, cur.left = cur, self.pre
+            else: # 记录头节点
+                self.head = cur
+            self.pre = cur # 保存 cur
+            dfs(cur.right) # 递归右子树
+        if not root: return
+        self.pre = None
+        dfs(root)
+        self.head.left, self.pre.right = self.pre, self.head
+        return self.head
+root = Node(4)
+root.left = Node(2)
+root.left.left = Node(1)
+root.left.right = Node(3)
+root.right = Node(5)
 sol = Solution()
-print(sol.isMatch("ab",".*c"))
+print(sol.treeToDoublyList(root))
