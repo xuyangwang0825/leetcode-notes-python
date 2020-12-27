@@ -1,31 +1,18 @@
-
-# Definition for a Node.
-class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
 class Solution:
-    def treeToDoublyList(self, root: 'Node') -> 'Node':
-        def dfs(cur):
-            if not cur: return
-            dfs(cur.left) # 递归左子树
-            if self.pre: # 修改节点引用
-                self.pre.right, cur.left = cur, self.pre
-            else: # 记录头节点
-                self.head = cur
-            self.pre = cur # 保存 cur
-            dfs(cur.right) # 递归右子树
-        if not root: return
-        self.pre = None
-        dfs(root)
-        self.head.left, self.pre.right = self.pre, self.head
-        return self.head
-root = Node(4)
-root.left = Node(2)
-root.left.left = Node(1)
-root.left.right = Node(3)
-root.right = Node(5)
+    def countDigitOne(self, n: int) -> int:
+        digit, res = 1, 0
+        high, cur, low = n // 10, n % 10, 0
+        while high != 0 or cur != 0:
+            if cur == 0: res += high * digit
+            elif cur == 1: res += high * digit + low + 1
+            else: res += (high + 1) * digit
+            low += cur * digit
+            cur = high % 10
+            high //= 10
+            digit *= 10
+        return res
+
+
 sol = Solution()
-print(sol.treeToDoublyList(root))
+print(sol.countDigitOne(135))
+1 011-131 

@@ -2,6 +2,10 @@
     "cSpell.ignoreWords": [
         "deepcopy",
         "fullmatch",
-        "postorder"
+        "heappush",
+        "heappushpop",
+        "nums",
+        "postorder",
+        "quene"
     ]
 }
