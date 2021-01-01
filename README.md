@@ -108,9 +108,9 @@
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - I. 二叉树的深度](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md) - 2020.12.31
 - ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - II. 平衡二叉树](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) - 2020.12.31
 > ## **2021.1**
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0605. Can Place Flowers]() - 2020.1.1
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - I. 数组中数字出现的次数]() - 2020.1.1
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - II. 数组中数字出现的次数 II]() - 2020.1.1
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 57 - I.和为s的两个数字]() - 2020.1.1
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0605. Can Place Flowers](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/0605.Can%20Place%20Flowers.md) - 2020.1.1
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md) - 2020.1.1
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20II.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%20II.md) - 2020.1.1
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 57 - I.和为s的两个数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/57%20-%20I.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md) - 2020.1.1
 
 
