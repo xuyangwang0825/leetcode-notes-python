@@ -1,37 +1,20 @@
-
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 class Solution:
-    def kthLargest(self, root: TreeNode, k: int) -> int:
-        def dfs(root):
-            if not root: return None
-            if root.right:
-                tmp = dfs(root.right)
-                if tmp: return tmp
+    def canPlaceFlowers(self, flowerbed, n: int) -> bool:
+        flowerbed = flowerbed + [0]
+        i,length = 0,len(flowerbed)-1
 
-            if self.k: self.k -= 1
-            if not self.k: return root.val
+        while i < length:
+            if flowerbed[i]:
+                i += 2
+            elif flowerbed[i+1]:
+                i += 3
+            else:
+                n -= 1
+                i += 2
 
-            if root.left:
-                tmp = dfs(root.left)
-                if tmp: return tmp
-        self.k = k
-        return dfs(root)
+        return n <= 0
 
 
 
 sol = Solution()
-# root = TreeNode(3)
-# root.left = TreeNode(1)
-# root.left.right = TreeNode(2)
-# root.right = TreeNode(4)
-root = TreeNode(5)
-root.left = TreeNode(3)
-root.left.left = TreeNode(2)
-root.left.left.left = TreeNode(1)
-root.left.right = TreeNode(4)
-root.right = TreeNode(6)
-print(sol.kthLargest(root,3))
+print(sol.canPlaceFlowers([0,1,1,0,0],1))

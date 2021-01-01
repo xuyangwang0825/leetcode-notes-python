@@ -97,15 +97,20 @@
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 45. 把数组排成最小的数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/45.%20%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0.md) - 2020.12.28
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 46. 把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/46.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md) - 2020.12.28
 - ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 47. 礼物的最大价值](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/47.%20%E7%A4%BC%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC.md) - 2020.12.28
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 48. 最长不含重复字符的子字符串]() - 2020.12.29
-- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 49. 丑数]() - 2020.12.29
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 50. 第一个只出现一次的字符]() - 2020.12.31
-- ![hard tag](https://img.shields.io/badge/-hard-red) [剑指 Offer 51. 数组中的逆序对]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 52. 两个链表的第一个公共节点]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 53 - I. 在排序数组中查找数字 I]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 53 - II. 0～n-1中缺失的数字]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 54. 二叉搜索树的第k大节点]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - I. 二叉树的深度]() - 2020.12.31
-- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - II. 平衡二叉树]() - 2020.12.31
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 48. 最长不含重复字符的子字符串](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/48.%20%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md) - 2020.12.29
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 49. 丑数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/49.%20%E4%B8%91%E6%95%B0.md) - 2020.12.29
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 50. 第一个只出现一次的字符](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/50.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E5%AD%97%E7%AC%A6.md) - 2020.12.31
+- ![hard tag](https://img.shields.io/badge/-hard-red) [剑指 Offer 51. 数组中的逆序对](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/51.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%80%86%E5%BA%8F%E5%AF%B9.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 52. 两个链表的第一个公共节点](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/52.%20%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%AC%E5%85%B1%E8%8A%82%E7%82%B9.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/53%20-%20I.%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%95%B0%E5%AD%97%20I.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/53%20-%20II.%200%EF%BD%9En-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/54.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - I. 二叉树的深度](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md) - 2020.12.31
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 55 - II. 平衡二叉树](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) - 2020.12.31
+> ## **2021.1**
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [0605. Can Place Flowers]() - 2020.1.1
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - I. 数组中数字出现的次数]() - 2020.1.1
+- ![medium tag](https://img.shields.io/badge/-medium-yellow) [剑指 Offer 56 - II. 数组中数字出现的次数 II]() - 2020.1.1
+- ![easytag](https://img.shields.io/badge/-easy-brightgreen) [剑指 Offer 57 - I.和为s的两个数字]() - 2020.1.1
 
 
