@@ -6,7 +6,7 @@
 > 题目来源：力扣（LeetCode）
 
 > 部分题解来源：力扣（LeetCode）
-# **TOTAL NUM** : 101/1919
+# **TOTAL NUM** : 107/1924
 
 > ## **2020.1**
 | Difficulty | Title | Date |
@@ -129,13 +129,13 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)|2020.1.1|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20II.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%20II.md)|2020.1.1|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - I. 和为s的两个数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/57%20-%20I.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md)|2020.1.1|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[239. Sliding Window Maximum]()|2020.1.2|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0086. Partition List]()|2020.1.3|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0509. Fibonacci Number]()|2020.1.4|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - II.和为s的连续正数序列]()|2020.1.4|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - I. 翻转单词顺序]()|2020.1.4|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - II. 左旋转字符串]()|2020.1.4|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 59 - I. 滑动窗口的最大值]()|2020.1.4|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[239. Sliding Window Maximum](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0239.%20Sliding%20Window%20Maximum.md)|2020.1.2|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0086. Partition List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0086.%20Partition%20List.md)|2020.1.3|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0509. Fibonacci Number](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0509.%20Fibonacci%20Number.md)|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - II.和为s的连续正数序列](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/57%20-%20II.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97.md)|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - I. 翻转单词顺序](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/58%20-%20I.%20%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F.md)|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - II. 左旋转字符串](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/58%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/59%20-%20I.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md)|2020.1.4|
 
 
 
