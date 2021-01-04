@@ -128,6 +128,15 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0605. Can Place Flowers](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/0605.Can%20Place%20Flowers.md)|2020.1.1|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)|2020.1.1|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20II.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%20II.md)|2020.1.1|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - I.和为s的两个数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/57%20-%20I.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md)|2020.1.1|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - I. 和为s的两个数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/57%20-%20I.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md)|2020.1.1|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[239. Sliding Window Maximum]()|2020.1.2|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0086. Partition List]()|2020.1.3|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0509. Fibonacci Number]()|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 57 - II.和为s的连续正数序列]()|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - I. 翻转单词顺序]()|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - II. 左旋转字符串]()|2020.1.4|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 59 - I. 滑动窗口的最大值]()|2020.1.4|
+
+
 
 
