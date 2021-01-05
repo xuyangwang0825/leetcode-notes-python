@@ -136,13 +136,13 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - I. 翻转单词顺序](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/58%20-%20I.%20%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F.md)|2020.1.4|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 58 - II. 左旋转字符串](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/58%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)|2020.1.4|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/59%20-%20I.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md)|2020.1.4|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0830. Positions of Large Groups]()|2020.1.5|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 59 - II. 队列的最大值]()|2020.1.5|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 60. n个骰子的点数]()|2020.1.5|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 61. 扑克牌中的顺子]()|2020.1.5|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 62. 圆圈中最后剩下的数字]()|2020.1.5|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 63. 股票的最大利润]()|2020.1.5|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 65.不用加减乘除做加法]()|2020.1.5|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0830. Positions of Large Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0830.%20Positions%20of%20Large%20Groups.md)|2020.1.5|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 59 - II. 队列的最大值](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/59%20-%20II.%20%E9%98%9F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md)|2020.1.5|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 60. n个骰子的点数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/60.%20n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0.md)|2020.1.5|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 61. 扑克牌中的顺子](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/61.%20%E6%89%91%E5%85%8B%E7%89%8C%E4%B8%AD%E7%9A%84%E9%A1%BA%E5%AD%90.md)|2020.1.5|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/62.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md)|2020.1.5|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 63. 股票的最大利润](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/63.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md)|2020.1.5|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 65.不用加减乘除做加法](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/65.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md)|2020.1.5|
 
 
 
