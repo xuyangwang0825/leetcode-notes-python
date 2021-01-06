@@ -39,7 +39,7 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0128. Longest Consecutive Sequence](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/0128.%20Longest%20Consecutive%20Sequence.md)|2020.6.6|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0126. Word Ladder II](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0126.%20Word%20Ladder%20II.md)|2020.6.7|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0127. Word Ladder](https://github.com/Diobrandokill/leetcode-notes/blob/master/bfs/0127.%20Word%20Ladder.md)|2020.6.7|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0990. Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set/0990.%20Satisfiability%20of%20Equality%20Equations.md)|2020.6.8|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0990. Satisfiability of Equality Equations](https://github.com/Diobrandokill/leetcode-notes/blob/master/union%20find%20set%20/%20graph/0990.%20Satisfiability%20of%20Equality%20Equations.md)|2020.6.8|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 46. 把数字翻译成字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/46.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md)|2020.6.9|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0009. Palindrome Number](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0009.%20Palindrome%20Number.md)|2020.6.10|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0496. Next Greater Element I](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0496.%20Next%20Greater%20Element%20I.md)|2020.6.11|
@@ -143,9 +143,9 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/62.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md)|2020.1.5|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 63. 股票的最大利润](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/63.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md)|2020.1.5|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 65. 不用加减乘除做加法](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/65.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md)|2020.1.5|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0399. Evaluate Division]()|2020.1.6|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 66. 构建乘积数组]()|2020.1.6|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 67. 把字符串转换成整数]()|2020.1.6|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先]()|2020.1.6|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - II. 二叉树的最近公共祖先]()|2020.1.6|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0399. Evaluate Division](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20/%20graph/0399.%20Evaluate%20Division.md)|2020.1.6|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 66. 构建乘积数组](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/66.%20%E6%9E%84%E5%BB%BA%E4%B9%98%E7%A7%AF%E6%95%B0%E7%BB%84.md)|2020.1.6|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 67. 把字符串转换成整数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/67.%20%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0.md)|2020.1.6|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
 
