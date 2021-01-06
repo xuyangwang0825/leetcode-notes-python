@@ -143,3 +143,9 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/62.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md)|2020.1.5|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 63. 股票的最大利润](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/63.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md)|2020.1.5|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 65. 不用加减乘除做加法](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/65.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md)|2020.1.5|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0399. Evaluate Division]()|2020.1.6|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 66. 构建乘积数组]()|2020.1.6|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 67. 把字符串转换成整数]()|2020.1.6|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先]()|2020.1.6|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - II. 二叉树的最近公共祖先]()|2020.1.6|
+
