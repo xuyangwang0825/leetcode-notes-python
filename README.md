@@ -148,4 +148,4 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 67. 把字符串转换成整数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/67.%20%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0.md)|2020.1.6|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
-
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0547. Number of Provinces]()|2020.1.7|
