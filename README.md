@@ -149,3 +149,6 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/68%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md)|2020.1.6|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0547. Number of Provinces](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0547.%20Number%20of%20Provinces.md)|2020.1.7|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1260. Shift 2D Grid]()|2020.1.8|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[0123. Best Time to Buy and Sell Stock III]()|2020.1.9|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0228. Summary Ranges]()|2020.1.10|
