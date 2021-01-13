@@ -152,4 +152,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1260. Shift 2D Grid](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1260.%20Shift%202D%20Grid.md)|2020.1.8|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0123. Best Time to Buy and Sell Stock III](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)|2020.1.9|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0228. Summary Ranges](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0228.%20Summary%20Ranges.md)|2020.1.10|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1202. Smallest String With Swaps]()|2020.1.11|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1202. Smallest String With Swaps](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1202.%20Smallest%20String%20With%20Swaps.md)|2020.1.11|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0207. Course Schedule]()|2020.1.12|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0210. Course Schedule II]()|2020.1.12|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1203. Sort Items by Groups Respecting Dependencies]()|2020.1.9|
