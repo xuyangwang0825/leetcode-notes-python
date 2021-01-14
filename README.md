@@ -157,5 +157,10 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0210. Course Schedule II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/topological%20sorting/0210.%20Course%20Schedule%20II.md)|2020.1.12|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0444. Sequence Reconstruction](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/topological%20sorting/0444.%20Sequence%20Reconstruction.md)|2020.1.12|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1203. Sort Items by Groups Respecting Dependencies](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/topological%20sorting/1203.%20Sort%20Items%20by%20Groups%20Respecting%20Dependencies.md)|2020.1.12|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[684. Redundant Connection]()|2020.1.13|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1018. Binary Prefix Divisible By 5]()|2020.1.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[684. Redundant Connection](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/684.%20Redundant%20Connection.md)|2020.1.13|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1018. Binary Prefix Divisible By 5](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1018.%20Binary%20Prefix%20Divisible%20By%205.md)|2020.1.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.01. Is Unique LCCI]()|2020.1.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.02. Check Permutation LCCI]()|2020.1.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.03. String to URL LCCI]()|2020.1.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.04. Palindrome Permutation LCCI]()|2020.1.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 01.05. One Away LCCI]()|2020.1.14|
