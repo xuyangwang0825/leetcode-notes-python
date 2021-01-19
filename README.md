@@ -6,7 +6,7 @@
 > 题目来源：力扣（LeetCode）
 
 > 部分题解来源：力扣（LeetCode）
-# **TOTAL NUM** : 136/1936
+# **TOTAL NUM** : 144/1940
 
 > ## **2020.1**
 | Difficulty | Title | Date |
@@ -169,4 +169,6 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1232. Check If It Is a Straight Line](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.md)|2020.1.17|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0721. Accounts Merge](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0721.%20Accounts%20Merge.md)|2020.1.18|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[175. Combine Two Tables](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sql/0175.%20Combine%20Two%20Tables.md)|2020.1.18|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1584. Min Cost to Connect All Points]()|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1584. Min Cost to Connect All Points](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1584.%20Min%20Cost%20to%20Connect%20All%20Points.md)|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.25. LRU Cache LCCI]()|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 02.05. Sum Lists LCCI]()|2020.1.19|
