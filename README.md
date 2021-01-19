@@ -167,5 +167,6 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0947. Most Stones Removed with Same Row or Column](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0947.%20Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.md)|2020.1.15|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0803. Bricks Falling When Hit](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0803.%20Bricks%20Falling%20When%20Hit.md)|2020.1.16|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1232. Check If It Is a Straight Line](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.md)|2020.1.17|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0721. Accounts Merge]()|2020.1.18|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[175. Combine Two Tables]()|2020.1.18|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0721. Accounts Merge](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0721.%20Accounts%20Merge.md)|2020.1.18|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[175. Combine Two Tables](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sql/0175.%20Combine%20Two%20Tables.md)|2020.1.18|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1584. Min Cost to Connect All Points]()|2020.1.19|
