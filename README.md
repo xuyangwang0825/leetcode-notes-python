@@ -6,7 +6,7 @@
 > 题目来源：力扣（LeetCode）
 
 > 部分题解来源：力扣（LeetCode）
-# **TOTAL NUM** : 147/1940
+# **TOTAL NUM** : 149/1940
 
 > ## **2020.1**
 | Difficulty | Title | Date |
