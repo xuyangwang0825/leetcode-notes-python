@@ -175,3 +175,5 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.06. Compress String LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2001.06.%20Compress%20String%20LCCI.md)|2020.1.19|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.03. Delete Middle Node LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.03.%20Delete%20Middle%20Node%20LCCI.md)|2020.1.19|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.02. Kth Node From End of List LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.02.%20Kth%20Node%20From%20End%20of%20List%20LCCI.md)|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0518. Coin Change 2]()|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0322. Coin Change]()|2020.1.19|
