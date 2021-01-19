@@ -170,5 +170,8 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0721. Accounts Merge](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0721.%20Accounts%20Merge.md)|2020.1.18|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[175. Combine Two Tables](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sql/0175.%20Combine%20Two%20Tables.md)|2020.1.18|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1584. Min Cost to Connect All Points](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1584.%20Min%20Cost%20to%20Connect%20All%20Points.md)|2020.1.19|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.25. LRU Cache LCCI]()|2020.1.19|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 02.05. Sum Lists LCCI]()|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.25. LRU Cache LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.25.%20LRU%20Cache%20LCCI.md)|2020.1.19|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 02.05. Sum Lists LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.05.%20Sum%20Lists%20LCCI.md)|2020.1.19|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.06. Compress String LCCI]()|2020.1.19|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.03. Delete Middle Node LCCI]()|2020.1.19|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.02. Kth Node From End of List LCCI]()|2020.1.19|
