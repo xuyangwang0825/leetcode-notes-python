@@ -7,7 +7,7 @@
 
 > 部分题解来源：力扣（LeetCode）
 
-### **KillCount** : 154/1940
+### **KillCount** : 154 / 1940
 
 | ![easytag](https://img.shields.io/badge/-easy-brightgreen) | ![medium tag](https://img.shields.io/badge/-medium-yellow) | ![hard tag](https://img.shields.io/badge/-hard-red) |
 |:----------:|:-----:|:----:|
