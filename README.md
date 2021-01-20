@@ -9,10 +9,6 @@
 
 ### **KillCount** : 154 / 1940
 
-| ![easytag](https://img.shields.io/badge/-easy-brightgreen) | ![medium tag](https://img.shields.io/badge/-medium-yellow) | ![hard tag](https://img.shields.io/badge/-hard-red) |
-|:----------:|:-----:|:----:|
-| 66 | 69 | 16 |
-
 > ## **2020.1**
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
@@ -187,3 +183,16 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.26. Calculator LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.26.%20Calculator%20LCCI.md)|2020.1.20|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 08.09. Bracket LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.09.%20Bracket%20LCCI.md)|2020.1.20|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 10.01. Sorted Merge LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.01.%20Sorted%20Merge%20LCCI.md)|2020.1.20|
+
+<!--table样式-->
+<style>
+table th:first-of-type {
+    width: 2cm;
+}
+table th:nth-of-type(2) {
+    width: 120cm;
+}
+table th:nth-of-type(3) {
+    width: 8em;
+}
+</style>
