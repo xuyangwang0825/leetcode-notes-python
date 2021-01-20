@@ -9,15 +9,12 @@
 
 ### **KillCount** : 154 / 1940
 
-> ## **2020.1**
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
+| 2020.1 |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0001. Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0001.%20Two%20Sum.md)|2020.1.11|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0002. Add Two Numbers](https://github.com/Diobrandokill/leetcode-notes/blob/master/linked%20list/0002.%20Add%20Two%20Numbers.md)|2020.1.11|
-
-> ## **2020.5**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2020.5 |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)|2020.5.22|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0076. Minimum Window Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/sliding%20window/0076.%20Minimum%20Window%20Substring.md)|2020.5.23|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0004. Median of Two Sorted Arrays](https://github.com/Diobrandokill/leetcode-notes/blob/master/binary%20search/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)|2020.5.24|
@@ -29,10 +26,7 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0084. Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.%20Largest%20Rectangle%20in%20Histogram.md)|2020.5.30|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0896. Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.%20Monotonic%20Array.md)|2020.5.30|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0101. Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.%20Symmetric%20Tree.md)|2020.5.31|
-
-> ## **2020.6**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2020.6 |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 64. 求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/64.%20%E6%B1%821%2B2%2B%E2%80%A6%2Bn.md)|2020.6.2|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0837. New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.%20New%2021%20Game.md)|2020.6.3|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0238. Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.%20Product%20of%20Array%20Except%20Self.md)|2020.6.4|
@@ -54,10 +48,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1014. Best Sightseeing Pair](https://github.com/Diobrandokill/leetcode-notes/blob/master/array/1014.%20Best%20Sightseeing%20Pair.md)|2020.6.17|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0125. Valid Palindrome](https://github.com/Diobrandokill/leetcode-notes/blob/master/string/0125.%20Valid%20Palindrome.md)|2020.6.19|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0010. Regular Expression Matching](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0010.%20Regular%20Expression%20Matching.md)|2020.6.20|
-
-> ## **2020.10**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2020.10 |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指offer 03. 数组中重复的数字](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/03.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md)|2020.10.25|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指offer 04. 二维数组中的查找](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/04.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md)|2020.10.25|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指offer 05. 替换空格](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/05.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)|2020.10.25|
@@ -70,17 +61,12 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 12. 矩阵中的路径](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/12.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)|2020.10.26|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 13. 机器人的运动范围](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/13.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)|2020.10.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 14-I. 剪绳子](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md)|2020.10.30|
-> ## **2020.11**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2020.11 |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 14-II. 剪绳子 II](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/14-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md)|2020.11.1|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指offer 15. 二进制中1的个数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/15.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md)|2020.11.2|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 16. 数值的整数次方](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/16.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)|2020.11.4|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指offer 17. 打印从1到最大的n位数](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/17.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md) |2020.11.9|
-
-> ## **2020.12**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2020.12 |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 18. 删除链表的节点](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/18.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md)|2020.12.17|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[剑指 Offer 19. 正则表达式匹配](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/19.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md)|2020.12.24|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 20. 表示数值的字符串](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/20.%20%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md)|2020.12.25|
@@ -122,10 +108,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/54.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md)|2020.12.31|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 55 - I. 二叉树的深度](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md)|2020.12.31|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 55 - II. 平衡二叉树](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md)|2020.12.31|
-
-> ## **2021.1**
-| Difficulty | Title | Date |
-|:----------:|:-----:|:----:|
+| 2021.1 |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0605. Can Place Flowers](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/0605.%20Can%20Place%20Flowers.md)|2020.1.1|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)|2020.1.1|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20II.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%20II.md)|2020.1.1|
@@ -183,16 +166,3 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.26. Calculator LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.26.%20Calculator%20LCCI.md)|2020.1.20|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 08.09. Bracket LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.09.%20Bracket%20LCCI.md)|2020.1.20|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 10.01. Sorted Merge LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.01.%20Sorted%20Merge%20LCCI.md)|2020.1.20|
-
-<!--table样式-->
-<style>
-table th:first-of-type {
-    width: 2cm;
-}
-table th:nth-of-type(2) {
-    width: 120cm;
-}
-table th:nth-of-type(3) {
-    width: 8em;
-}
-</style>
