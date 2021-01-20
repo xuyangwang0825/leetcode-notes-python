@@ -6,7 +6,12 @@
 > 题目来源：力扣（LeetCode）
 
 > 部分题解来源：力扣（LeetCode）
-# **TOTAL NUM** : 149/1940
+
+### **KillCount** : 154/1940
+
+| ![easytag](https://img.shields.io/badge/-easy-brightgreen) | ![medium tag](https://img.shields.io/badge/-medium-yellow) | ![hard tag](https://img.shields.io/badge/-hard-red) |
+|:----------:|:-----:|:----:|
+| 66 | 69 | 16 |
 
 > ## **2020.1**
 | Difficulty | Title | Date |
@@ -177,3 +182,8 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 01.06. Compress String LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2001.06.%20Compress%20String%20LCCI.md)|2020.1.19|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.03. Delete Middle Node LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.03.%20Delete%20Middle%20Node%20LCCI.md)|2020.1.19|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.02. Kth Node From End of List LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2002.02.%20Kth%20Node%20From%20End%20of%20List%20LCCI.md)|2020.1.19|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0628. Maximum Product of Three Numbers]()|2020.1.20|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0215. Kth Largest Element in an Array]()|2020.1.20|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.26. Calculator LCCI]()|2020.1.20|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 08.09. Bracket LCCI]()|2020.1.20|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 10.01. Sorted Merge LCCI]()|2020.1.20|
