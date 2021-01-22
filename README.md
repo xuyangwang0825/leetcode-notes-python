@@ -166,8 +166,11 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 16.26. Calculator LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2016.26.%20Calculator%20LCCI.md)|2020.1.20|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 08.09. Bracket LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.09.%20Bracket%20LCCI.md)|2020.1.20|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 10.01. Sorted Merge LCCI](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8/%E9%9D%A2%E8%AF%95%E9%A2%98%2010.01.%20Sorted%20Merge%20LCCI.md)|2020.1.20|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree]()|2020.1.21|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[面试题 17.24. Max Submatrix LCCI]()|2020.1.21|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 17.14. Smallest K LCCI]()|2020.1.21|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 01.07. Rotate Matrix LCCI]()|2020.1.21|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.07. Intersection of Two Linked Lists LCCI]()|2020.1.21|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1489.%20Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree.md)|2020.1.21|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0053. Maximum Subarray]()|2020.1.21|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0989. Add to Array-Form of Integer]()|2020.1.22|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[面试题 17.24. Max Submatrix LCCI]()|2020.1.22|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 17.14. Smallest K LCCI]()|2020.1.22|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[面试题 01.07. Rotate Matrix LCCI]()|2020.1.22|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[面试题 02.07. Intersection of Two Linked Lists LCCI]()|2020.1.22|
+
