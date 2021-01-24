@@ -174,7 +174,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5646. Minimum Number of People to Teach](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5646.%20Minimum%20Number%20of%20People%20to%20Teach.md)|2021.01.23|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5647. Decode XORed Permutation](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/5647.%20Decode%20XORed%20Permutation.md)|2021.01.23|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[5648. Count Ways to Make Array With Product]()|2021.01.23|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0674. Longest Continuous Increasing Subsequence]()|2021.01.24|
 
 ### waitlist
 | Difficulty | Title | Date |
