@@ -170,9 +170,9 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0053. Maximum Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0053.%20Maximum%20Subarray.md)|2020.01.21|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0989. Add to Array-Form of Integer](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0989.%20Add%20to%20Array-Form%20of%20Integer.md)|2020.01.22|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1319. Number of Operations to Make Network Connected]()|2020.01.23|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5645. Find the Highest Altitude]()|2021.01.23|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5646. Minimum Number of People to Teach]()|2021.01.23|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5647. Decode XORed Permutation]()|2021.01.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5645. Find the Highest Altitude](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/5645.%20Find%20the%20Highest%20Altitude.md)|2021.01.23|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5646. Minimum Number of People to Teach](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5646.%20Minimum%20Number%20of%20People%20to%20Teach.md)|2021.01.23|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5647. Decode XORed Permutation](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/5647.%20Decode%20XORed%20Permutation.md)|2021.01.23|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[5648. Count Ways to Make Array With Product]()|2021.01.23|
 
 
@@ -187,5 +187,5 @@
 ### contest
 | Title | Date |
 |:-----:|:----:|
-| [2021.01.23-第 44 场双周赛]() | 2021.01.23 |
-| [2021.01.24-第 225 场周赛]() | 2021.01.24 |
+| [2021.01.23-第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) | 2021.01.23 |
+| [2021.01.24-第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) | 2021.01.24 |
