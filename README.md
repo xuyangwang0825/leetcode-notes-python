@@ -173,10 +173,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5645. Find the Highest Altitude](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/5645.%20Find%20the%20Highest%20Altitude.md)|2021.01.23|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5646. Minimum Number of People to Teach](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5646.%20Minimum%20Number%20of%20People%20to%20Teach.md)|2021.01.23|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5647. Decode XORed Permutation](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/5647.%20Decode%20XORed%20Permutation.md)|2021.01.23|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[5648. Count Ways to Make Array With Product]()|2021.01.23|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[5648. Count Ways to Make Array With Product](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/5648.%20Count%20Ways%20to%20Make%20Array%20With%20Product.md)|2021.01.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1720. Decode XORed Array](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1720.%20Decode%20XORed%20Array.md)|2021.01.24|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0674. Longest Continuous Increasing Subsequence](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0674.%20Longest%20Continuous%20Increasing%20Subsequence.md)|2021.01.24|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0959. Regions Cut By Slashes]()|2021.01.25|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0959. Regions Cut By Slashes](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0959.%20Regions%20Cut%20By%20Slashes.md)|2021.01.25|
 
 ### waitlist
 | Difficulty | Title | Date |
