@@ -7,7 +7,7 @@
 
 > 部分题解来源：力扣（LeetCode）
 
-### **KillCount** : 163 / 1950
+### **KillCount** : 171 / 1951
 
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
@@ -179,7 +179,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0959. Regions Cut By Slashes](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0959.%20Regions%20Cut%20By%20Slashes.md)|2021.01.25|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1128. Number of Equivalent Domino Pairs](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1128.%20Number%20of%20Equivalent%20Domino%20Pairs.md)|2021.01.26|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable.md)|2021.01.27|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0724. Find Pivot Index]()|2021.01.26|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0724. Find Pivot Index](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0724.%20Find%20Pivot%20Index.md)|2021.01.26|
 
 ### waitlist
 | Difficulty | Title | Date |
