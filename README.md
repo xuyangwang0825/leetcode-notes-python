@@ -183,7 +183,8 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0206. Reverse Linked List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0206.%20Reverse%20Linked%20List.md)|2021.01.28|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0812. Largest Triangle Area](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/0812.%20Largest%20Triangle%20Area.md)|2021.01.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0019. Remove Nth Node From End of List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)|2021.01.28|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1631. Path With Minimum Effort]()|2021.01.29|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1631. Path With Minimum Effort](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1631.%20Path%20With%20Minimum%20Effort.md)|2021.01.29|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[0778. Swim in Rising Water]()|2021.01.27|
 
 ### waitlist
 | Difficulty | Title | Date |
