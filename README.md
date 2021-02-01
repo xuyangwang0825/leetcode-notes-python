@@ -170,10 +170,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0053. Maximum Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0053.%20Maximum%20Subarray.md)|2020.01.21|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0989. Add to Array-Form of Integer](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0989.%20Add%20to%20Array-Form%20of%20Integer.md)|2020.01.22|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1319. Number of Operations to Make Network Connected]()|2020.01.23|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5645. Find the Highest Altitude](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/5645.%20Find%20the%20Highest%20Altitude.md)|2021.01.23|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5646. Minimum Number of People to Teach](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5646.%20Minimum%20Number%20of%20People%20to%20Teach.md)|2021.01.23|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5647. Decode XORed Permutation](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/5647.%20Decode%20XORed%20Permutation.md)|2021.01.23|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[5648. Count Ways to Make Array With Product](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/5648.%20Count%20Ways%20to%20Make%20Array%20With%20Product.md)|2021.01.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1732. Find the Highest Altitude](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1732.%20Find%20the%20Highest%20Altitude.md)|2021.01.23|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1733. Minimum Number of People to Teach](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1733.%20Minimum%20Number%20of%20People%20to%20Teach.md)|2021.01.23|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1734. Decode XORed Permutation](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1734.%20Decode%20XORed%20Permutation.md)|2021.01.23|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1735. Count Ways to Make Array With Product](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1735.%20Count%20Ways%20to%20Make%20Array%20With%20Product.md)|2021.01.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1720. Decode XORed Array](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1720.%20Decode%20XORed%20Array.md)|2021.01.24|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0674. Longest Continuous Increasing Subsequence](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0674.%20Longest%20Continuous%20Increasing%20Subsequence.md)|2021.01.24|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0959. Regions Cut By Slashes](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0959.%20Regions%20Cut%20By%20Slashes.md)|2021.01.25|
@@ -184,7 +184,11 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0812. Largest Triangle Area](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/0812.%20Largest%20Triangle%20Area.md)|2021.01.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0019. Remove Nth Node From End of List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)|2021.01.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1631. Path With Minimum Effort](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/1631.%20Path%20With%20Minimum%20Effort.md)|2021.01.29|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[0778. Swim in Rising Water](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0778.%20Swim%20in%20Rising%20Water.md)|2021.01.27|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[0778. Swim in Rising Water](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0778.%20Swim%20in%20Rising%20Water.md)|2021.01.30|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1742. Maximum Number of Balls in a Box]()|2021.01.31|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1743. Restore the Array From Adjacent Pairs]()|2021.01.31|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?]()|2021.01.31|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV]()|2021.01.31|
 
 ### waitlist
 | Difficulty | Title | Date |
@@ -197,5 +201,6 @@
 ### contest
 | Title | Date |
 |:-----:|:----:|
-| [2021.01.23-第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) | 2021.01.23 |
-| [2021.01.24-第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) | 2021.01.24 |
+| [2021.01.23 - 第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.01.23|
+| [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
+| [2021.01.24 - 第 226 场周赛]() |2021.01.31|
