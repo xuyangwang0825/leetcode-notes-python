@@ -188,8 +188,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1742. Maximum Number of Balls in a Box](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1742.%20Maximum%20Number%20of%20Balls%20in%20a%20Box.md)|2021.01.31|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1743. Restore the Array From Adjacent Pairs](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1743.%20Restore%20the%20Array%20From%20Adjacent%20Pairs.md)|2021.01.31|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?]()|2021.01.31|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV]()|2021.01.31|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/1745.%20Palindrome%20Partitioning%20IV.md)|2021.01.31|
 | **2021.2** |
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap]()|2021.02.01|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups]()|2021.02.01|
 
 ### waitlist
 | Difficulty | Title | Date |
