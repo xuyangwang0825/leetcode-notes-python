@@ -7,7 +7,7 @@
 
 > 部分题解来源：力扣（LeetCode）
 
-### **KillCount** : 176 / 1952
+### **KillCount** : 182 / 1956
 
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
@@ -190,8 +190,8 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?]()|2021.01.31|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/1745.%20Palindrome%20Partitioning%20IV.md)|2021.01.31|
 | **2021.2** |
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap]()|2021.02.01|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups]()|2021.02.01|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/hash%20table/0888.%20Fair%20Candy%20Swap.md)|2021.02.01|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0839.%20Similar%20String%20Groups.md)|2021.02.01|
 
 ### waitlist
 | Difficulty | Title | Date |
@@ -206,4 +206,4 @@
 |:-----:|:----:|
 | [2021.01.23 - 第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.01.23|
 | [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
-| [2021.01.24 - 第 226 场周赛]() |2021.01.31|
+| [2021.01.24 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
