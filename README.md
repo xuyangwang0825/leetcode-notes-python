@@ -189,6 +189,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1743. Restore the Array From Adjacent Pairs]()|2021.01.31|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?]()|2021.01.31|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV]()|2021.01.31|
+| **2021.2** |
 
 ### waitlist
 | Difficulty | Title | Date |
