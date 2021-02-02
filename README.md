@@ -192,6 +192,7 @@
 | **2021.2** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/hash%20table/0888.%20Fair%20Candy%20Swap.md)|2021.02.01|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0839.%20Similar%20String%20Groups.md)|2021.02.01|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0424. Longest Repeating Character Replacement]()|2021.01.31|
 
 ### waitlist
 | Difficulty | Title | Date |
