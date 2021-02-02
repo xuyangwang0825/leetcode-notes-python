@@ -187,12 +187,12 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0778. Swim in Rising Water](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0778.%20Swim%20in%20Rising%20Water.md)|2021.01.30|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1742. Maximum Number of Balls in a Box](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1742.%20Maximum%20Number%20of%20Balls%20in%20a%20Box.md)|2021.01.31|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1743. Restore the Array From Adjacent Pairs](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1743.%20Restore%20the%20Array%20From%20Adjacent%20Pairs.md)|2021.01.31|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?]()|2021.01.31|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1744.%20Can%20You%20Eat%20Your%20Favorite%20Candy%20on%20Your%20Favorite%20Day%3F.md)|2021.01.31|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/1745.%20Palindrome%20Partitioning%20IV.md)|2021.01.31|
 | **2021.2** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/hash%20table/0888.%20Fair%20Candy%20Swap.md)|2021.02.01|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0839.%20Similar%20String%20Groups.md)|2021.02.01|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0424. Longest Repeating Character Replacement]()|2021.01.31|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0424. Longest Repeating Character Replacement](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0424.%20Longest%20Repeating%20Character%20Replacement.md)|2021.01.31|
 
 ### waitlist
 | Difficulty | Title | Date |
