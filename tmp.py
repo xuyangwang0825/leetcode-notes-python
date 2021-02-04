@@ -101,7 +101,9 @@ import numpy as np
 #         pi = partition(arr, low, high)
 #         quickSort(arr, low, pi-1)
 #         quickSort(arr, pi+1, high)
-
+# a = [10,4,5,1,3,-1,4,6]
+# quickSort(a,0,len(a)-1)
+# print(a)
 
 # def quickSort(array):
 #     if len(array) < 2: return array
@@ -298,32 +300,39 @@ import numpy as np
 
 
 # @timer
-# def main():
-#     print("123")
-
+# def test(n):
+#     sum = 0
+#     for i in range(n + 1):
+#         sum += i
+#     return sum
 
 # if __name__ == '__main__':
-#     main()
+#     test(10000000)
 
 
-class Solution(object):
-    def characterReplacement(self, s, k):
-        """
-        :type s: str
-        :type k: int
-        :rtype: int
-        """
-        N = len(s)
-        left, right = 0, 0 # [left, right] 都包含
-        counter = collections.Counter()
-        res = 0
-        while right < N:
-            counter[s[right]] += 1
-            while right - left + 1 - counter.most_common(1)[0][1] > k:
-                counter[s[left]] -= 1
-                left += 1
-            res = max(res, right - left + 1)
-            right += 1
-        return res
-sol = Solution()
-print(sol.characterReplacement("AABABBA",1))
+# class Solution(object):
+#     def characterReplacement(self, s, k):
+#         """
+#         :type s: str
+#         :type k: int
+#         :rtype: int
+#         """
+#         N = len(s)
+#         left, right = 0, 0 # [left, right] 都包含
+#         counter = collections.Counter()
+#         res = 0
+#         while right < N:
+#             counter[s[right]] += 1
+#             while right - left + 1 - counter.most_common(1)[0][1] > k:
+#                 counter[s[left]] -= 1
+#                 left += 1
+#             res = max(res, right - left + 1)
+#             right += 1
+#         return res
+# sol = Solution()
+# print(sol.characterReplacement("AABABBA",1))
+
+a = b = 1
+print(id(a),id(b))
+a = 2
+print(id(a),id(b))
