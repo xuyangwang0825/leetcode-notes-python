@@ -194,8 +194,9 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0839.%20Similar%20String%20Groups.md)|2021.02.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0424. Longest Repeating Character Replacement](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0424.%20Longest%20Repeating%20Character%20Replacement.md)|2021.02.02|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0480. Sliding Window Median]()|2021.02.03|
-
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0643. Maximum Average Subarray I]()|2021.02.04|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1208. Get Equal Substrings Within Budget]()|2021.02.05|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1423. Maximum Points You Can Obtain from Cards]()|2021.02.05|
 
 
 ### waitlist

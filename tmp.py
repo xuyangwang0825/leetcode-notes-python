@@ -332,7 +332,56 @@ import numpy as np
 # sol = Solution()
 # print(sol.characterReplacement("AABABBA",1))
 
-a = b = 1
-print(id(a),id(b))
-a = 2
-print(id(a),id(b))
+# a = b = 1
+# print(id(a),id(b))
+# a = 2
+# print(id(a),id(b))
+
+# class Solution:
+#     def minCharacters(self, a: str, b: str) -> int:
+#         res = float('inf')
+#         char_count_a = collections.Counter(a)
+#         char_count_b = collections.Counter(b)
+#         # print(char_count_a)
+#         # print(char_count_b)
+#         mina,minb,maxa,maxb = 'z','z','a','a'
+#         count_1,count_2,count_3,count_4 = 0,0,0,0
+#         for c in a:
+#             mina = min(mina,c)
+#             maxa = max(maxa,c)
+#         for c in b:
+#             minb = min(minb,c)
+#             maxb = max(maxb,c)
+#         # print(mina,minb,maxa,maxb)
+
+#         for c in a:
+#             if c <= maxb: count_1 += 1 # ada
+#             if c >= minb: count_2 += 1  # axiao
+#         for c in b:
+#             if c <= maxa: count_3 += 1 # ada
+#             if c >= mina: count_4 += 1  # axiao
+#         count_5 = len(a) + len(b) - max(cc.values())
+#         # while Counter[0]
+#         # print(count_1,count_2,count_3,count_4,count_5)
+#         return min(res,count_1,count_2,count_3,count_4,count_5)
+
+# class Solution:
+#     def minCharacters(self, a: str, b: str) -> int:
+#         baset = 0
+#         ca, cb = collections.Counter(a), collections.Counter(b)
+#         cc = ca + cb
+#         baset = len(a) + len(b) - max(cc.values())
+#         for max_s in 'abcdefghijklmnopqrstuvwxy' :
+#             base_a, base_b = 0, 0
+#             for c in ca :
+#                 if c > max_s :
+#                     base_a += ca[c] # a <= ms, b > ms
+#                 else :
+#                     base_b += ca[c] # a > ms, b <= ms
+#             for c in cb :
+#                 if c > max_s :
+#                     base_b += cb[c] # a <= ms, b > ms
+#                 else :
+#                     base_a += cb[c] # a > ms, b <= ms
+#             baset = min(baset, base_a, base_b)
+#         return baset
