@@ -7,7 +7,7 @@
 
 > 部分题解来源：力扣（LeetCode）
 
-### **KillCount** : 182 / 1956
+### **KillCount** : 190 / 1958
 
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
@@ -196,8 +196,11 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0480. Sliding Window Median](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0480.%20Sliding%20Window%20Median.md)|2021.02.03|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0643. Maximum Average Subarray I](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0643.%20Maximum%20Average%20Subarray%20I.md)|2021.02.04|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1208. Get Equal Substrings Within Budget](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/1208.%20Get%20Equal%20Substrings%20Within%20Budget.md)|2021.02.05|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1423. Maximum Points You Can Obtain from Cards]()|2021.02.05|
-
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1423. Maximum Points You Can Obtain from Cards](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.md)|2021.02.06|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1736. Latest Time by Replacing Hidden Digits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1736.%20Latest%20Time%20by%20Replacing%20Hidden%20Digits.md)|2021.02.06|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1737. Change Minimum Characters to Satisfy One of Three Conditions](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1737.%20Change%20Minimum%20Characters%20to%20Satisfy%20One%20of%20Three%20Conditions.md)|2021.02.06|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1738. Find Kth Largest XOR Coordinate Value](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1738.%20Find%20Kth%20Largest%20XOR%20Coordinate%20Value.md)|2021.02.06|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1739. Building Boxes](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1739.%20Building%20Boxes.md)|2021.02.06|
 
 ### waitlist
 | Difficulty | Title | Date |
