@@ -385,3 +385,33 @@ import numpy as np
 #                     base_a += cb[c] # a > ms, b <= ms
 #             baset = min(baset, base_a, base_b)
 #         return baset
+
+class Solution:
+    def maxAbsoluteSum(self, nums):
+        n = len(nums)
+        dp = [[0 for i in range(n)] for j in range(n)]
+        for i,num in enumerate(nums):
+            dp[i][i] = num
+        for i in range(n):
+            for j in range(i+1,n):
+                dp[i][j] = dp[i][j-1] + nums[j]
+#        return max(max(dp),-min(dp))
+        res = float("-inf")
+        for i in dp:
+            tmp1 = max(i)
+            tmp2 = -min(i)
+            res = max(res,tmp1,tmp2)
+        return res
+
+sol = Solution()
+print(sol.maxAbsoluteSum([1,-3,2,3,-4]))
+
+# class Solution:
+#     def minimumLength(self, s: str) -> int:
+#         while len(s) > 1 and s[0] == s[-1]:
+#             l,r = 0,len(s)-1
+#             while l+1 < len(s) and s[l+1] == s[l]: l += 1
+#             while r-1 >= 0 and s[r-1] == s[r]: r -= 1
+#             if not l < r: s = s[1:-1]
+#             else: s = s[l+1:r]
+#         return s
