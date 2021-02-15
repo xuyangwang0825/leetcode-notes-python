@@ -386,25 +386,25 @@ import numpy as np
 #             baset = min(baset, base_a, base_b)
 #         return baset
 
-class Solution:
-    def maxAbsoluteSum(self, nums):
-        n = len(nums)
-        dp = [[0 for i in range(n)] for j in range(n)]
-        for i,num in enumerate(nums):
-            dp[i][i] = num
-        for i in range(n):
-            for j in range(i+1,n):
-                dp[i][j] = dp[i][j-1] + nums[j]
-#        return max(max(dp),-min(dp))
-        res = float("-inf")
-        for i in dp:
-            tmp1 = max(i)
-            tmp2 = -min(i)
-            res = max(res,tmp1,tmp2)
-        return res
+# class Solution:
+#     def maxAbsoluteSum(self, nums):
+#         n = len(nums)
+#         dp = [[0 for i in range(n)] for j in range(n)]
+#         for i,num in enumerate(nums):
+#             dp[i][i] = num
+#         for i in range(n):
+#             for j in range(i+1,n):
+#                 dp[i][j] = dp[i][j-1] + nums[j]
+# #        return max(max(dp),-min(dp))
+#         res = float("-inf")
+#         for i in dp:
+#             tmp1 = max(i)
+#             tmp2 = -min(i)
+#             res = max(res,tmp1,tmp2)
+#         return res
 
-sol = Solution()
-print(sol.maxAbsoluteSum([1,-3,2,3,-4]))
+# sol = Solution()
+# print(sol.maxAbsoluteSum([1,-3,2,3,-4]))
 
 # class Solution:
 #     def minimumLength(self, s: str) -> int:
@@ -415,3 +415,85 @@ print(sol.maxAbsoluteSum([1,-3,2,3,-4]))
 #             if not l < r: s = s[1:-1]
 #             else: s = s[l+1:r]
 #         return s
+
+# class Solution:
+#     def maximumScore(self, a, b, c):
+#         res = 0
+#         while (a > 0 and b > 0) or (b > 0 and c > 0) or (a > 0 and c > 0):
+#             can1 = max(a,b,c)
+#             if can1 == a:
+#                 a -= 1
+#                 if b < c:
+#                     c -= 1
+#                 else: b -= 1
+#             elif can1 == b:
+#                 b -= 1
+#                 if a < c:
+#                     c -= 1
+#                 else: a -= 1
+#             else:
+#                 c -= 1
+#                 if a < b:
+#                     b -= 1
+#                 else: a -= 1
+#             res += 1
+#         return res
+
+# sol = Solution()
+# print(sol.maximumScore(1,8,8))
+
+# class Solution:
+#     def largestMerge(self, word1, word2):
+#         res = ""
+#         while word1 and word2:
+#             if word1[0] > word2[0]:
+#                 res += word1[0]
+#                 word1 = word1[1:]
+#             elif word1[0] < word2[0]:
+#                 res += word2[0]
+#                 word2 = word2[1:]
+#             else:
+#                 i,j = 0,0
+#                 while i+1 < len(word1) and word1[i] == word1[i+1]:
+#                     i += 1
+#                 while j+1 < len(word2) and word2[j] == word2[j+1]:
+#                     j += 1
+#                 if i+1 == len(word1) and j+1 == len(word2):
+#                     return res + word1 + word2
+#                 if i+1 == len(word1) and not j+1 == len(word2):
+#                     if word2[j+1] > word1[0]:
+#                         res += word2[:j+2]
+#                         word2 = word2[j+2:]
+#                     else:
+#                         res += word1
+#                         word1 = ""
+#                         continue
+#                 if not i+1 == len(word1) and j+1 == len(word2):
+#                     if word1[i+1] > word2[0]:
+#                         res += word1[:i+2]
+#                         word1 = word1[i+2:]
+#                     else:
+#                         res += word2
+#                         word2 = ""
+#                         continue
+#                 if word1[i+1] > word2[j+1]:
+#                     res += word1[:i+2]
+#                     word1 = word1[i+2:]
+#                 elif word1[i+1] < word2[j+1]:
+#                     res += word2[:j+2]
+#                     word2 = word2[j+2:]
+#                 else:
+#                     res += word1[:i+1]
+#                     word1 = word1[i+1:]
+#                     res += word2[:j+1]
+#                     word2 = word2[j+1:]
+#         if not word1:
+#             for c in word2:
+#                 res += c
+#         else:
+#             for c in word1:
+#                 res += c
+#         return res
+
+# sol = Solution()
+# print(sol.largestMerge("uuurruuuruuuuuuuuruuuuu","urrrurrrrrrrruurrrurrrurrrrruu"))

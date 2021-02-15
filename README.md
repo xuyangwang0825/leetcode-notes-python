@@ -202,6 +202,8 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1738. Find Kth Largest XOR Coordinate Value](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1738.%20Find%20Kth%20Largest%20XOR%20Coordinate%20Value.md)|2021.02.06|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1739. Building Boxes](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1739.%20Building%20Boxes.md)|2021.02.06|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0665. Non-decreasing Array]()|2021.02.07|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0485. Max Consecutive Ones]()|2021.02.15|
+
 
 ### waitlist
 | Difficulty | Title | Date |
