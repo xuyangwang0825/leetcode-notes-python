@@ -206,6 +206,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0978. Longest Turbulent Subarray]()|2021.02.21|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0832. Flipping an Image](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0832.%20Flipping%20an%20Image.md)|2020.02.24|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0867. Transpose Matrix](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0867.%20Transpose%20Matrix.md)|2020.02.25|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1052. Grumpy Bookstore Owner]()|2021.02.06|
 
 ### waitlist
 | Difficulty | Title | Date |
