@@ -209,6 +209,7 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1052. Grumpy Bookstore Owner](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1052.%20Grumpy%20Bookstore%20Owner.md)|2021.02.26|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0395. Longest Substring with At Least K Repeating Characters](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/divide%20and%20conque/0395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|2021.02.27|
 
+
 ### waitlist
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|

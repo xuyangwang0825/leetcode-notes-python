@@ -497,3 +497,25 @@ import numpy as np
 
 # sol = Solution()
 # print(sol.largestMerge("uuurruuuruuuuuuuuruuuuu","urrrurrrrrrrruurrrurrrurrrrruu"))
+
+# class Solution:
+#     def minOperations(self, nums1, nums2):
+#         min1,min2 = len(nums1),len(nums2)
+#         max1,max2 = 6*min1,6*min2
+#         if max1 < min2 or max2 < min1: return -1
+#         sum1,sum2 = sum(nums1),sum(nums2)
+#         if sum1 > sum2: nums1,nums2 = nums2,nums1
+#         target = abs(sum1-sum2)
+#         counter1 = collections.Counter(nums1)
+#         counter2 = collections.Counter(nums2)
+#         res = 0
+#         for num in range(6,0,-1):
+#             print(num)
+#             tmpnum = counter1[6 - num + 1] + counter2[num]
+#             while target > 0 and tmpnum:
+#                 target -= (num-1)
+#                 tmpnum -= 1
+#                 res += 1
+#             if target <= 0: return res
+# sol = Solution()
+# print(sol.minOperations([1,5,5,2,1,1,1,1,4,4,4,1,5,2,2,4,6,5,1,5,3,5,6,2,3,1,5,4,4,1,2,4,1,1,6,3,6,4,4,4,3,5,5,5,2,6,4,2,5,4,2,6,3,4,6,1,5,3,2,3,5,2,1,3,2,4,4,4,5,3,5,5,4,1,1,6,5,6,3,5,3,6,5,6,5,4,4,4,5,6,6,6,4,2,4,6,1,2,1,5,3,4,5,5,6,6,1,4,3,1,5,3,4,1,2,1,4,4,5,6,5,3,1,5,1,3,3,6,5,3,5,6,2,6,3,1,2,3,3,1,1,4,3,2,6,6,2,1,2,4,3,5,5,4,3,1,1,5,2,5,1,4,5,6,4,5,2,1,2,5,3,2,6,3,4,3,4,5,4,6,3,4,4,3,3,4,2,2,6,2,6,3,1,1,5,3,1,1,4,2,5,5,5,4,3,6,5,5,5,1,1,3,6,2,3,6,3,4,2,5,4,4,3,5,6,4,3,5,1,1,3,3,1,1,6,4,6,2,1,4,3,5,5],[1,2,5,4,3,3,5,1,1,6,2,5,4,4,5,6,6,4,2,5,6,2,3,4,5,2,4,4,3,6,6,5,4,1,2,1,2,3,3,2,6,1,1,1,1,3,5,6,2,1,1,1,4,6,5]))
