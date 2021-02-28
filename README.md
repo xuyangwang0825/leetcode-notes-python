@@ -7,7 +7,7 @@
 
 > 部分题解来源：力扣（LeetCode）
 
-### **KillCount** : 190 / 1958
+### **KillCount** : 221 / 1987
 
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
@@ -208,7 +208,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0867. Transpose Matrix](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0867.%20Transpose%20Matrix.md)|2020.02.25|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1052. Grumpy Bookstore Owner](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1052.%20Grumpy%20Bookstore%20Owner.md)|2021.02.26|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0395. Longest Substring with At Least K Repeating Characters](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/divide%20and%20conque/0395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|2021.02.27|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5689. Count Items Matching a Rule](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/5689.%20Count%20Items%20Matching%20a%20Rule.md)|2021.02.28|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5690. Closest Dessert Cost](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5690.%20Closest%20Dessert%20Cost.md)|2021.02.28|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5691. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5691.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations.md)|2021.02.28|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[5692. Car Fleet II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/5692.%20Car%20Fleet%20II.md)|2021.02.28|
 
 ### waitlist
 | Difficulty | Title | Date |
