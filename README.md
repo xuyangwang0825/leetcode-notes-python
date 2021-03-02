@@ -212,8 +212,8 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5690. Closest Dessert Cost](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5690.%20Closest%20Dessert%20Cost.md)|2021.02.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[5691. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5691.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations.md)|2021.02.28|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[5692. Car Fleet II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/5692.%20Car%20Fleet%20II.md)|2021.02.28|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable]()|2021.03.01|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable]()|2021.03.02|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0303.%20Range%20Sum%20Query%20-%20Immutable.md)|2021.03.01|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 
 ### waitlist
 | Difficulty | Title | Date |
