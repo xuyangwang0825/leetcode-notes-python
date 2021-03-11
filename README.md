@@ -216,6 +216,9 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
 
+|![hard tag](https://img.shields.io/badge/-hard-red)|[224. Basic Calculator]()|2021.03.10|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[227. Basic Calculator II]()|2021.03.11|
+
 ### waitlist
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
