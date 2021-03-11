@@ -216,6 +216,15 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
 
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1779. Find Nearest Point That Has the Same X or Y Coordinate]()|2021.03.06|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1780. Check if Number is a Sum of Powers of Three]()|2021.03.06|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1781. Sum of Beauty of All Substrings]()|2021.03.06|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1782. Count Pairs Of Nodes]()|2021.03.06|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1784. Check if Binary String Has at Most One Segment of Ones]()|2021.03.07|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1785. Minimum Elements to Add to Form a Given Sum]()|2021.03.07|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1786. Number of Restricted Paths From First to Last Node]()|2021.03.07|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1787. Make the XOR of All Segments Equal to Zero]()|2021.03.07|
+
 |![hard tag](https://img.shields.io/badge/-hard-red)|[224. Basic Calculator]()|2021.03.10|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[227. Basic Calculator II]()|2021.03.11|
 
@@ -233,3 +242,5 @@
 | [2021.01.23 - 第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.01.23|
 | [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
 | [2021.01.24 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
+| [2021.02.28 - 第 230 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.02.28%20-%20%E7%AC%AC%20230%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.02.28|
+| [2021.03.07 - 第 231 场周赛]() |2021.03.07|
