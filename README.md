@@ -243,4 +243,5 @@
 | [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
 | [2021.01.24 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
 | [2021.02.28 - 第 230 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.02.28%20-%20%E7%AC%AC%20230%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.02.28|
-| [2021.03.07 - 第 231 场周赛]() |2021.03.07|
+| [2021.03.06 - 第 47 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.06%20-%20%E7%AC%AC%2047%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.06|
+| [2021.03.07 - 第 231 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.07%20-%20%E7%AC%AC%20231%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.07|
