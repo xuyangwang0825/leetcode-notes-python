@@ -519,3 +519,194 @@ import numpy as np
 #             if target <= 0: return res
 # sol = Solution()
 # print(sol.minOperations([1,5,5,2,1,1,1,1,4,4,4,1,5,2,2,4,6,5,1,5,3,5,6,2,3,1,5,4,4,1,2,4,1,1,6,3,6,4,4,4,3,5,5,5,2,6,4,2,5,4,2,6,3,4,6,1,5,3,2,3,5,2,1,3,2,4,4,4,5,3,5,5,4,1,1,6,5,6,3,5,3,6,5,6,5,4,4,4,5,6,6,6,4,2,4,6,1,2,1,5,3,4,5,5,6,6,1,4,3,1,5,3,4,1,2,1,4,4,5,6,5,3,1,5,1,3,3,6,5,3,5,6,2,6,3,1,2,3,3,1,1,4,3,2,6,6,2,1,2,4,3,5,5,4,3,1,1,5,2,5,1,4,5,6,4,5,2,1,2,5,3,2,6,3,4,3,4,5,4,6,3,4,4,3,3,4,2,2,6,2,6,3,1,1,5,3,1,1,4,2,5,5,5,4,3,6,5,5,5,1,1,3,6,2,3,6,3,4,2,5,4,4,3,5,6,4,3,5,1,1,3,3,1,1,6,4,6,2,1,4,3,5,5],[1,2,5,4,3,3,5,1,1,6,2,5,4,4,5,6,6,4,2,5,6,2,3,4,5,2,4,4,3,6,6,5,4,1,2,1,2,3,3,2,6,1,1,1,1,3,5,6,2,1,1,1,4,6,5]))
+
+# class Solution:
+#     def checkPowersOfThree(self, n: int) -> bool:
+#         base = 1
+#         while base <= n:
+#             base *= 3
+#         base /= 3
+#         while base >= 1:
+#             n -= base
+#             if n <= 0: break
+#             base /= 3
+#             while base > n:
+#                 base /= 3
+#         if n == 0: return True
+#         return False
+# class Solution:
+#     def beautySum(self, s: str) -> int:
+#         def getless(counter):
+#             res = float("inf")
+#             for key in counter:
+#                 if counter[key] < res and counter[key]>0:
+#                     res = counter[key]
+#             return res
+
+#         dp = [[0 for i in range(len(s))] for i in range(len(s))]
+#         counter = collections.Counter(s)
+#         for i in range(len(s)):
+#             tmpcounter = counter.copy()
+#             for j in range(i):
+#                 tmpcounter[s[j]] -= 1
+#             for j in range(len(s)-1,i+1,-1):
+#                 dp[i][j] = tmpcounter.most_common(1)[0][1] - getless(tmpcounter)
+#                 tmpcounter[s[j]] -= 1
+#         res = 0
+#         for list1 in dp:
+#             res += sum(list1)
+#         print(dp)
+#         return res
+# sol = Solution()
+# print(sol.beautySum("aabcb"))
+
+# import bisect
+# class Solution:
+#     def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List[int]:
+#         cnt_pair = []
+#         for i in range(1,n):
+#             for j in range(i+1,n+1):
+#                 cnt_pair.append([i,j])
+#         length = len(cnt_pair)
+#         neighbours = [0 for i in range(length)]
+#         print(cnt_pair)
+#         counter = collections.defaultdict(int)
+#         for edge in edges:
+#             counter[edge[0]] += 1
+#             counter[edge[1]] += 1
+#         print(counter)
+#         counter2 = collections.defaultdict(int)
+#         for edge in edges:
+#             counter2[tuple(edge)] += 1
+#         print(counter2)
+#         for i,pair in enumerate(cnt_pair):
+#             neighbours[i] = counter[pair[0]] + counter[pair[1]]
+#             neighbours[i] -= counter2[(pair[1],pair[0])]
+#             neighbours[i] -= counter2[(pair[0],pair[1])]
+#         print(neighbours)
+#         neighbours = sorted(neighbours)
+#         # print(neighbours)
+#         res = []
+#         for query in queries:
+#             res.append(len(cnt_pair) - bisect.bisect_right(neighbours,query))
+#         return res
+
+# class Solution:
+#     def checkOnesSegment(self, s: str) -> bool:
+#         check = False
+#         i = 0
+#         while i < len(s):
+#             if s[i] == 1:
+#                 tmp = i
+#                 while i < len(s) and s[i] == 1: i += 1
+#                 if i - tmp >= 1:
+#                     if not check: check = True
+#                     else: return False
+#             else: i += 1
+#         return True
+
+# sol = Solution()
+# print(sol.checkOnesSegment([2,2,2,5,1,-2],5
+# 126614243))
+
+# import heapq
+# import math
+# class Solution:
+#     def countRestrictedPaths(self, n, edges) -> int:
+#         def init_distance(graph, s):
+#             distance = {s: 0}
+#             for vertex in graph:
+#                 if vertex != s:
+#                     distance[vertex] = math.inf
+#             return distance
+
+#         def dijkstra(graph, s):
+#             pqueue = []
+#             heapq.heappush(pqueue, (0, s))
+#             seen = set()
+#             parent = {s: None}
+#             distance = init_distance(graph, s)
+
+#             while len(pqueue) > 0:
+#                 pair = heapq.heappop(pqueue)
+#                 dist = pair[0]
+#                 vertex = pair[1]
+#                 seen.add(s)
+#                 nodes = graph[vertex].keys()
+#                 for w in nodes:
+#                     if w not in seen:
+#                         if dist + graph[vertex][w] < distance[w]:
+#                             heapq.heappush(pqueue, (dist + graph[vertex][w], w))
+#                             parent[w] = vertex
+#                             distance[w] = dist + graph[vertex][w]
+#             return parent, distance
+
+#         edge_map = {}
+#         for edge in edges:
+#             if edge[0] not in edge_map:
+#                 edge_map[edge[0]] = {edge[1]:edge[2]}
+#             else:
+#                 edge_map[edge[0]][edge[1]] = edge[2]
+
+#             if edge[1] not in edge_map:
+#                 edge_map[edge[1]] = {edge[0]:edge[2]}
+#             else:
+#                 edge_map[edge[1]][edge[0]] = edge[2]
+#         print(edge_map)
+#         parent_dict, distance_dict = dijkstra(edge_map, 5)
+#         print(parent_dict)
+#         print(distance_dict)
+
+# sol = Solution()
+# print(sol.countRestrictedPaths(5,[[1,2,3],[1,3,3],[2,3,1],[1,4,2],[5,2,2],[3,5,1],[5,4,10]]))
+
+# 2021.3.12 didi
+# class Node:
+#     def __init__(self,val):
+#         self.val = val
+#         self.left = None
+#         self.right = None
+
+# root = Node(1)
+# root.left = Node(2)
+# root.right = Node(3)
+# root.left.left = Node(4)
+# root.left.right = Node(5)
+# root.right.left = Node(6)
+# root.right.right = Node(7)
+
+# def main(root):
+#     quene = collections.deque()
+#     quene.append(root)
+#     res = []
+#     while quene:
+#         tmpNode = quene.popleft()
+#         res.append(tmpNode.val)
+#         if tmpNode.left != None: quene.append(tmpNode.left)
+#         if tmpNode.right != None: quene.append(tmpNode.right)
+#     return res
+
+# # print(main(root))
+
+# numlist = [3,4,5,7,9,1,2]
+
+# def find(num,numlist):
+#     def search(num,start,end):
+#         if start > end: return -1
+#         if start == end: return start
+#         mid = len(numlist) // 2
+#         res = 0
+#         if numlist[mid] > num: res = search(num,0,mid)
+#         elif numlist[mid] < num: res = search(num,mid+1,end)
+#         else: return mid
+#         return res
+
+#     pos = -1
+#     for i in range(len(numlist)-1):
+#         if numlist[i+1] < numlist[i]:
+#             numlist = numlist[i+1:] + numlist[:i+1]
+#             pos = len(numlist) - i - 1
+#             break
+#     return search(num,0,len(numlist)) - pos
+
+# print(find(4,numlist))
