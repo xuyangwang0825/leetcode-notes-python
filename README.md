@@ -228,6 +228,12 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[224. Basic Calculator]()|2021.03.10|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[227. Basic Calculator II]()|2021.03.11|
 
+
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5701. Check if One String Swap Can Make Strings Equal]()|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5702. Find Center of Star Graph]()|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5703. Maximum Average Pass Ratio]()|2021.03.14|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[5704. Maximum Score of a Good Subarray]()|2021.03.14|
+
 ### waitlist
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
