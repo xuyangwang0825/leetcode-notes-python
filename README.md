@@ -208,10 +208,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0867. Transpose Matrix](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/0867.%20Transpose%20Matrix.md)|2020.02.25|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1052. Grumpy Bookstore Owner](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/1052.%20Grumpy%20Bookstore%20Owner.md)|2021.02.26|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0395. Longest Substring with At Least K Repeating Characters](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/divide%20and%20conque/0395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|2021.02.27|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5689. Count Items Matching a Rule](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/5689.%20Count%20Items%20Matching%20a%20Rule.md)|2021.02.28|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5690. Closest Dessert Cost](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5690.%20Closest%20Dessert%20Cost.md)|2021.02.28|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5691. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5691.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations.md)|2021.02.28|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[5692. Car Fleet II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/5692.%20Car%20Fleet%20II.md)|2021.02.28|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1773. Count Items Matching a Rule](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/array/1773.%20Count%20Items%20Matching%20a%20Rule.md)|2021.02.28|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1774. Closest Dessert Cost](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1774.%20Closest%20Dessert%20Cost.md)|2021.02.28|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1775.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations.md)|2021.02.28|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1776. Car Fleet II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1776.%20Car%20Fleet%20II.md)|2021.02.28|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0303.%20Range%20Sum%20Query%20-%20Immutable.md)|2021.03.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
@@ -229,10 +229,10 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[227. Basic Calculator II]()|2021.03.11|
 
 
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5701. Check if One String Swap Can Make Strings Equal]()|2021.03.14|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5702. Find Center of Star Graph]()|2021.03.14|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5703. Maximum Average Pass Ratio]()|2021.03.14|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[5704. Maximum Score of a Good Subarray]()|2021.03.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5701. Check if One String Swap Can Make Strings Equal](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/string/5701.%20Check%20if%20One%20String%20Swap%20Can%20Make%20Strings%20Equal.md)|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5702. Find Center of Star Graph](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/graph/5702.%20Find%20Center%20of%20Star%20Graph.md)|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5703. Maximum Average Pass Ratio](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/heap/5703.%20Maximum%20Average%20Pass%20Ratio.md)|2021.03.14|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[5704. Maximum Score of a Good Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5704.%20Maximum%20Score%20of%20a%20Good%20Subarray.md)|2021.03.14|
 
 ### waitlist
 | Difficulty | Title | Date |
