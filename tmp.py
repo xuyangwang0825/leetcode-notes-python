@@ -757,5 +757,3 @@ import numpy as np
 
 # sol = Solution()
 # print(sol.maximumScore([6569,9667,3148,7698,1622,2194,793,9041,1670,1872],5))
-import heapq
-heapq.heappush

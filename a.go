@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import "unicode/utf8"
 
 func main() {
-	fmt.Printf("%d \t%d", 123, 44)
+	var TmpStr = "HEllp 你好"
+	println(len(TmpStr))
+	println("utf8:", utf8.RuneCountInString(TmpStr))
+	print("utf82:", len([]rune(TmpStr)))
 }
