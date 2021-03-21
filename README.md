@@ -215,7 +215,6 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0303.%20Range%20Sum%20Query%20-%20Immutable.md)|2021.03.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
-
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1779. Find Nearest Point That Has the Same X or Y Coordinate]()|2021.03.06|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1780. Check if Number is a Sum of Powers of Three]()|2021.03.06|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1781. Sum of Beauty of All Substrings]()|2021.03.06|
@@ -224,15 +223,12 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1785. Minimum Elements to Add to Form a Given Sum]()|2021.03.07|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1786. Number of Restricted Paths From First to Last Node]()|2021.03.07|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1787. Make the XOR of All Segments Equal to Zero]()|2021.03.07|
-
 |![hard tag](https://img.shields.io/badge/-hard-red)|[224. Basic Calculator]()|2021.03.10|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[227. Basic Calculator II]()|2021.03.11|
-
-
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[5701. Check if One String Swap Can Make Strings Equal](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/string/5701.%20Check%20if%20One%20String%20Swap%20Can%20Make%20Strings%20Equal.md)|2021.03.14|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5702. Find Center of Star Graph](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/graph/5702.%20Find%20Center%20of%20Star%20Graph.md)|2021.03.14|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[5703. Maximum Average Pass Ratio](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/heap/5703.%20Maximum%20Average%20Pass%20Ratio.md)|2021.03.14|
-|![hard tag](https://img.shields.io/badge/-hard-red)|[5704. Maximum Score of a Good Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/5704.%20Maximum%20Score%20of%20a%20Good%20Subarray.md)|2021.03.14|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1790. Check if One String Swap Can Make Strings Equal](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/string/1790.%20Check%20if%20One%20String%20Swap%20Can%20Make%20Strings%20Equal.md)|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1791. Find Center of Star Graph](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/graph/1791.%20Find%20Center%20of%20Star%20Graph.md)|2021.03.14|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1792. Maximum Average Pass Ratio](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/heap/1792.%20Maximum%20Average%20Pass%20Ratio.md)|2021.03.14|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1793. Maximum Score of a Good Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1793.%20Maximum%20Score%20of%20a%20Good%20Subarray.md)|2021.03.14|
 
 ### waitlist
 | Difficulty | Title | Date |
@@ -245,9 +241,12 @@
 ### contest
 | Title | Date |
 |:-----:|:----:|
-| [2021.01.23 - 第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.23-%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.01.23|
+| [2021.01.23 - 第 44 场双周赛]() |2021.01.23|
 | [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/contest-record/2021.01.24-%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
 | [2021.01.24 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
 | [2021.02.28 - 第 230 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.02.28%20-%20%E7%AC%AC%20230%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.02.28|
 | [2021.03.06 - 第 47 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.06%20-%20%E7%AC%AC%2047%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.06|
 | [2021.03.07 - 第 231 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.07%20-%20%E7%AC%AC%20231%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.07|
+| [2021.03.07 - 第 232 场周赛]() |2021.03.14|
+| [2021.03.06 - 第 47 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.06%20-%20%E7%AC%AC%2047%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.20|
+| [2021.03.07 - 第 233 场周赛]() |2021.03.21|

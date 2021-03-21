@@ -757,3 +757,61 @@ import numpy as np
 
 # sol = Solution()
 # print(sol.maximumScore([6569,9667,3148,7698,1622,2194,793,9041,1670,1872],5))
+
+
+# class Solution:
+#     def secondHighest(self, s):
+#         first,second = -1,-1
+#         for c in s:
+#             if c.isdigit():
+#                 if first == -1 and second == -1: first = int(c)
+#                 elif first != -1 and second == -1:
+#                     if int(c) > first:
+#                         second = first
+#                         first = int(c)
+#                     else:
+#                         second = int(c)
+#                 else:
+#                     if int(c) > first:
+#                         second = first
+#                         first = int(c)
+#                     elif int(c) > second and int(c) != first:
+#                         second = int(c)
+#         print(first,second)
+#         return second if second != first else -1
+
+# sol = Solution()
+# print(sol.secondHighest("ck077"))
+
+# class Solution:
+#     def getMaximumConsecutive(self, coins):
+#         d = collections.defaultdict(int)
+#         for coin in coins: d[coin] += 1
+#         #d = sorted(d.items(),key=lambda item:item[0])
+#         ctSet = set()
+#         for k,v in d.items():
+#             if not ctSet: 
+#                 for time in range(v+1):
+#                     ctSet.add(k*time)
+#             else:
+#                 for ct in list(ctSet.copy()):
+#                     for time in range(v+1):
+#                         ctSet.add(k*time+ct)
+#         print(ctSet)
+
+# sol = Solution()
+# print(sol.getMaximumConsecutive([1,3]))
+
+class Solution:
+    def maxValue(self, n, index, maxSum):
+        target = maxSum - n
+        base = 1
+        res = 0
+        while target:
+            target -= base
+            base += 1
+            res += 1
+        print(res)
+
+sol = Solution()
+print(sol.maxValue(4,2,6))
