@@ -229,8 +229,13 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1791. Find Center of Star Graph](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/graph/1791.%20Find%20Center%20of%20Star%20Graph.md)|2021.03.14|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1792. Maximum Average Pass Ratio](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/heap/1792.%20Maximum%20Average%20Pass%20Ratio.md)|2021.03.14|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1793. Maximum Score of a Good Subarray](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1793.%20Maximum%20Score%20of%20a%20Good%20Subarray.md)|2021.03.14|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0191. Number of 1 Bits]()|2021.03.22|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0083. Remove Duplicates from Sorted List]()|2021.03.26|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1796. Second Largest Digit in a String]()|2021.03.20|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1797. Design Authentication Manager]()|2021.03.20|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1798. Maximum Number of Consecutive Values You Can Make]()|2021.03.20|
+|![hard tag](https://img.shields.io/badge/-hard-red)|[1799. Maximize Score After N Operations]()|2021.03.20|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0191. Number of 1 Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0191.%20Number%20of%201%20Bits.md)|2021.03.22|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0083. Remove Duplicates from Sorted List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0083.%20Remove%20Duplicates%20from%20Sorted%20List.md)|2021.03.26|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0190. Reverse Bits]()|2021.03.29|
 
 ### waitlist
 | Difficulty | Title | Date |
@@ -245,10 +250,10 @@
 |:-----:|:----:|
 | [2021.01.23 - 第 44 场双周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.23%20-%20%E7%AC%AC%2044%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.01.23|
 | [2021.01.24 - 第 225 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.24%20-%20%E7%AC%AC%20225%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.24|
-| [2021.01.24 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
+| [2021.01.31 - 第 226 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.01.31%20-%20%E7%AC%AC%20226%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.01.31|
 | [2021.02.28 - 第 230 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.02.28%20-%20%E7%AC%AC%20230%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.02.28|
 | [2021.03.06 - 第 47 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.06%20-%20%E7%AC%AC%2047%20%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B.md) |2021.03.06|
 | [2021.03.07 - 第 231 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.07%20-%20%E7%AC%AC%20231%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.07|
-| [2021.03.07 - 第 232 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.14%20-%20%E7%AC%AC%20232%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.14|
-| [2021.03.06 - 第 48 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.20%20-%20%E7%AC%AC%2048%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.20|
-| [2021.03.07 - 第 233 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.21%20-%20%E7%AC%AC%20233%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.21|
+| [2021.03.14 - 第 232 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.14%20-%20%E7%AC%AC%20232%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.14|
+| [2021.03.20 - 第 48 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.20%20-%20%E7%AC%AC%2048%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.20|
+| [2021.03.21 - 第 233 场周赛](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%91%A8%E8%B5%9B%E8%AE%B0%E5%BD%95/2021.03.21%20-%20%E7%AC%AC%20233%20%E5%9C%BA%E5%91%A8%E8%B5%9B.md) |2021.03.21|
