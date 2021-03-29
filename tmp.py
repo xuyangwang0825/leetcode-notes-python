@@ -790,7 +790,7 @@ import numpy as np
 #         #d = sorted(d.items(),key=lambda item:item[0])
 #         ctSet = set()
 #         for k,v in d.items():
-#             if not ctSet: 
+#             if not ctSet:
 #                 for time in range(v+1):
 #                     ctSet.add(k*time)
 #             else:
@@ -802,16 +802,38 @@ import numpy as np
 # sol = Solution()
 # print(sol.getMaximumConsecutive([1,3]))
 
-class Solution:
-    def maxValue(self, n, index, maxSum):
-        target = maxSum - n
-        base = 1
-        res = 0
-        while target:
-            target -= base
-            base += 1
-            res += 1
-        print(res)
+# class Solution:
+#     def maxValue(self, n, index, maxSum):
+#         target = maxSum - n
+#         base = 1
+#         res = 0
+#         while target:
+#             target -= base
+#             base += 1
+#             res += 1
+#         print(res)
 
-sol = Solution()
-print(sol.maxValue(4,2,6))
+# sol = Solution()
+# print(sol.maxValue(4,2,6))
+
+# class Solution:
+#     def maxNiceDivisors(self, primeFactors):
+#         if primeFactors == 1: return 1
+
+#         def isprime(n):
+#             for i in range(2, n):
+#                 if n % i == 0:
+#                     return False
+#             return True
+
+#         i = 2
+#         facDict = collections.defaultdict(int)
+#         while primeFactors:
+#             while not isprime(i): i += 1
+#             while primeFactors % i == 0:
+#                 facDict[i] += 1
+#                 primeFactors = primeFactors / i
+#         print(facDict)
+
+# sol = Solution()
+# print(sol.maxNiceDivisors(5))
