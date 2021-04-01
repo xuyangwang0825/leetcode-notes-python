@@ -235,7 +235,8 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1799. Maximize Score After N Operations]()|2021.03.20|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0191. Number of 1 Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0191.%20Number%20of%201%20Bits.md)|2021.03.22|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0083. Remove Duplicates from Sorted List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0083.%20Remove%20Duplicates%20from%20Sorted%20List.md)|2021.03.26|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0190. Reverse Bits]()|2021.03.29|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0190. Reverse Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0190.%20Reverse%20Bits.md)|2021.03.29|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[1006. Clumsy Factorial]()|2021.04.01|
 
 ### waitlist
 | Difficulty | Title | Date |
