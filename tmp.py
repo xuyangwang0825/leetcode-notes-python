@@ -837,3 +837,173 @@ import numpy as np
 
 # sol = Solution()
 # print(sol.maxNiceDivisors(5))
+
+# class Solution:
+#     def maxHappyGroups(self, batchSize, groups):
+#         res = 0 
+#         tmp_dict = {}
+#         for i in range(batchSize):
+#             if i != 0:
+#                 tmp_dict[i] = 0
+#         for g in groups:
+#             tmp = g % batchSize
+#             if tmp == 0: res += 1
+#             else:
+#             # else:
+#             #     if tmp_dict[batchSize - tmp] > 0: 
+#             #         res += 1
+#             #         tmp_dict[batchSize - tmp] -= 1
+#             #     else:
+#             #         tmp_dict[tmp] += 1
+#                 tmp_dict[tmp] += 1
+#         print(tmp_dict)
+#         for i in sorted (tmp_dict) : 
+#             # print ((i, tmp_dict[i]), end =" ")
+#             tmp = tmp_dict[i]
+#             while tmp_dict[i] and tmp:
+#                 if batchSize - tmp != i and tmp_dict[batchSize - tmp] > 0:
+#                     res += 1
+#                     tmp_dict[i] -= tmp
+#                     tmp_dict[batchSize - tmp] -= 1
+#                 tmp -= 1
+#         return res
+
+# sol = Solution()
+# print(sol.maxHappyGroups(4,[1,3,2,5,2,2,1,6]))
+
+# class Solution:
+#     def minAbsoluteSumDiff(self, nums1, nums2):
+#         change_pos = []
+#         diff_list = []
+#         res = 0
+#         for i in range(len(nums1)):
+#             tmp_diff = abs(nums1[i] - nums2[i])
+#             diff_list.append(tmp_diff)
+#             res += tmp_diff
+#         max_diff = max(diff_list)
+#         for i,diff in enumerate(diff_list):
+#             if diff == max_diff:
+#                 change_pos.append(i)
+#         print(diff_list)
+#         res_list = []
+#         for i in change_pos:
+#             target1 = target2 = nums2[i]
+#             while True:
+#                 if target1 in nums1 or target2 in nums1:
+#                     res_list.append(res - max_diff)
+#                     break
+#                 else:
+#                     max_diff -= 1
+#                     target1 += 1
+#                     target2 -= 1
+#         return min(res_list)
+
+# sol = Solution()
+# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
+
+class Solution:
+    # def purchasePlans(self, nums, target):
+    #     num_dict = {}
+    #     res = 0
+    #     for i,num in enumerate(nums):
+    #         if num >= target: break
+    #         for k in range(1,target-num+1):
+    #             if k in num_dict:
+    #                 res += num_dict[k]
+    #                 res %= 1000000007
+    #         if i in num_dict: num_dict[i] += 1
+    #         else: num_dict[num] = 1
+    #     return res % 1000000007
+    def orchestraLayout(self, num, xPos, yPos):
+        yueqi = [i for i in range(1,10)]
+        matrix = [[0 for i in range(num)] for i in range(num)]
+        pos = 0
+        
+        rows = columns = num
+        visited = [[False] * columns for _ in range(rows)]
+        total = rows * columns
+
+        directions = [[0, 1], [1, 0], [0, -1], [-1, 0]]
+        row, column = 0, 0
+        directionIndex = 0
+        for i in range(total):
+            matrix[row][column] = yueqi[pos]
+            if pos < 8: pos += 1  
+            else: pos = 0
+            visited[row][column] = True
+            nextRow, nextColumn = row + directions[directionIndex][0], column + directions[directionIndex][1]
+            if not (0 <= nextRow < rows and 0 <= nextColumn < columns and not visited[nextRow][nextColumn]):
+                directionIndex = (directionIndex + 1) % 4
+            row += directions[directionIndex][0]
+            column += directions[directionIndex][1]
+        for i in matrix:
+            print(i)
+            # print("\n")
+        return matrix[xPos][yPos]
+    def orchestraLayout2(self, num, xPos, yPos):
+        xr,xl,yr,yl = num-1,0,num-1,0
+        start = 0
+        while xPos not in (xr,xl) and yPos not in (yr,yl):
+            start += ((xr - xl - 1) * 4 + 4)
+            start = start % 9
+            xr -= 1
+            xl += 1
+            yr -= 1
+            yl += 1
+        n = (xr - xl)
+
+        if xPos == xl:
+            tmp = (start + yPos - yl + 1)
+            if tmp % 9 == 0: return 9
+            else: return tmp % 9
+        else: start += n
+
+        if yPos == yr: 
+            tmp = (start + xPos - xl + 1)
+            if tmp % 9 == 0: return 9
+            else: return tmp % 9
+        else: start += n
+        
+        if xPos == xr: 
+            tmp = (start + yr - yPos + 1)
+            if tmp % 9 == 0: return 9
+            else: return tmp % 9
+        else: start += n
+        
+        if yPos == yl: 
+            tmp = (start + xr - xPos + 1)
+            if tmp % 9 == 0: return 9
+            else: return tmp % 9
+        else: start += n
+sol = Solution()
+# print(sol.orchestraLayout(9,7,7))
+print(sol.orchestraLayout2(9,3,3))
+# print(sol.orchestraLayout(4,1,1))
+# print(sol.orchestraLayout(4,1,2))
+# print(sol.orchestraLayout(4,2,2))
+# print(sol.orchestraLayout(4,2,1))
+
+
+
+
+
+
+
+
+# sol = Solution()
+# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
+
+
+
+
+
+
+# sol = Solution()
+# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
+
+
+
+
+
+# sol = Solution()
+# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
