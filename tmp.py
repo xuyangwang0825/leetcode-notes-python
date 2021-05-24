@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import collections
-import numpy as np
+# import collections
+# import numpy as np
 # class Solution:
 #     def minimumTeachings(self, n, languages, friendships):
 #         records = []
@@ -901,7 +901,7 @@ import numpy as np
 # sol = Solution()
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 
-class Solution:
+# class Solution:
     # def purchasePlans(self, nums, target):
     #     num_dict = {}
     #     res = 0
@@ -914,96 +914,159 @@ class Solution:
     #         if i in num_dict: num_dict[i] += 1
     #         else: num_dict[num] = 1
     #     return res % 1000000007
-    def orchestraLayout(self, num, xPos, yPos):
-        yueqi = [i for i in range(1,10)]
-        matrix = [[0 for i in range(num)] for i in range(num)]
-        pos = 0
+#     def orchestraLayout(self, num, xPos, yPos):
+#         yueqi = [i for i in range(1,10)]
+#         matrix = [[0 for i in range(num)] for i in range(num)]
+#         pos = 0
         
-        rows = columns = num
-        visited = [[False] * columns for _ in range(rows)]
-        total = rows * columns
+#         rows = columns = num
+#         visited = [[False] * columns for _ in range(rows)]
+#         total = rows * columns
 
-        directions = [[0, 1], [1, 0], [0, -1], [-1, 0]]
-        row, column = 0, 0
-        directionIndex = 0
-        for i in range(total):
-            matrix[row][column] = yueqi[pos]
-            if pos < 8: pos += 1  
-            else: pos = 0
-            visited[row][column] = True
-            nextRow, nextColumn = row + directions[directionIndex][0], column + directions[directionIndex][1]
-            if not (0 <= nextRow < rows and 0 <= nextColumn < columns and not visited[nextRow][nextColumn]):
-                directionIndex = (directionIndex + 1) % 4
-            row += directions[directionIndex][0]
-            column += directions[directionIndex][1]
-        for i in matrix:
-            print(i)
-            # print("\n")
-        return matrix[xPos][yPos]
-    def orchestraLayout2(self, num, xPos, yPos):
-        xr,xl,yr,yl = num-1,0,num-1,0
-        start = 0
-        while xPos not in (xr,xl) and yPos not in (yr,yl):
-            start += ((xr - xl - 1) * 4 + 4)
-            start = start % 9
-            xr -= 1
-            xl += 1
-            yr -= 1
-            yl += 1
-        n = (xr - xl)
+#         directions = [[0, 1], [1, 0], [0, -1], [-1, 0]]
+#         row, column = 0, 0
+#         directionIndex = 0
+#         for i in range(total):
+#             matrix[row][column] = yueqi[pos]
+#             if pos < 8: pos += 1  
+#             else: pos = 0
+#             visited[row][column] = True
+#             nextRow, nextColumn = row + directions[directionIndex][0], column + directions[directionIndex][1]
+#             if not (0 <= nextRow < rows and 0 <= nextColumn < columns and not visited[nextRow][nextColumn]):
+#                 directionIndex = (directionIndex + 1) % 4
+#             row += directions[directionIndex][0]
+#             column += directions[directionIndex][1]
+#         for i in matrix:
+#             print(i)
+#             # print("\n")
+#         return matrix[xPos][yPos]
+#     def orchestraLayout2(self, num, xPos, yPos):
+#         xr,xl,yr,yl = num-1,0,num-1,0
+#         start = 0
+#         while xPos not in (xr,xl) and yPos not in (yr,yl):
+#             start += ((xr - xl - 1) * 4 + 4)
+#             start = start % 9
+#             xr -= 1
+#             xl += 1
+#             yr -= 1
+#             yl += 1
+#         n = (xr - xl)
 
-        if xPos == xl:
-            tmp = (start + yPos - yl + 1)
-            if tmp % 9 == 0: return 9
-            else: return tmp % 9
-        else: start += n
+#         if xPos == xl:
+#             tmp = (start + yPos - yl + 1)
+#             if tmp % 9 == 0: return 9
+#             else: return tmp % 9
+#         else: start += n
 
-        if yPos == yr: 
-            tmp = (start + xPos - xl + 1)
-            if tmp % 9 == 0: return 9
-            else: return tmp % 9
-        else: start += n
+#         if yPos == yr: 
+#             tmp = (start + xPos - xl + 1)
+#             if tmp % 9 == 0: return 9
+#             else: return tmp % 9
+#         else: start += n
         
-        if xPos == xr: 
-            tmp = (start + yr - yPos + 1)
-            if tmp % 9 == 0: return 9
-            else: return tmp % 9
-        else: start += n
+#         if xPos == xr: 
+#             tmp = (start + yr - yPos + 1)
+#             if tmp % 9 == 0: return 9
+#             else: return tmp % 9
+#         else: start += n
         
-        if yPos == yl: 
-            tmp = (start + xr - xPos + 1)
-            if tmp % 9 == 0: return 9
-            else: return tmp % 9
-        else: start += n
-sol = Solution()
+#         if yPos == yl: 
+#             tmp = (start + xr - xPos + 1)
+#             if tmp % 9 == 0: return 9
+#             else: return tmp % 9
+#         else: start += n
+# sol = Solution()
 # print(sol.orchestraLayout(9,7,7))
-print(sol.orchestraLayout2(9,3,3))
+# print(sol.orchestraLayout2(9,3,3))
 # print(sol.orchestraLayout(4,1,1))
 # print(sol.orchestraLayout(4,1,2))
 # print(sol.orchestraLayout(4,2,2))
 # print(sol.orchestraLayout(4,2,1))
 
+# import math
+# import heapq
+
+# class Solution:
+#     def storeWater(self, bucket, vat):
+#         times = []
+#         res = 0
+#         for i in range(len(vat)):
+#             if bucket[i] == 0:
+#                 res += 1
+#                 bucket[i] += 1
+
+#             tmp = math.ceil(vat[i]/bucket[i])
+#             if tmp == 0 and vat[i]!=0: tmp += 1
+#             times.append([-tmp,i])
+
+#         print(times)
+#         heapq.heapify(times)
+#         print(times)
+#         tmpres = res - times[0][0]
+#         while True:
+#             _, i = heapq.heappop(times)
+#             res += 1
+#             bucket[i] += 1
+#             heapq.heappush(times,[- math.ceil(vat[i]/bucket[i]),i])
+#             if res - times[0][0] > tmpres:
+#                 break
+#             else:
+#                 tmpres = res - times[0][0]
+#         return tmpres
+
+
+# sol = Solution()
+# print(sol.storeWater([3,2,1],[6,6,6]))
 
 
 
 
 
+# def processStr(str):
+#     i = 0
+#     res = ""
+#     flag = 0
+#     while i < len(str):
+#         j = i + 1
+#         while j < len(str) and str[j] == str[i]: j+= 1
+#         if j - i >= 3:
+#             if flag == 1:
+#                 res += str[i]
+#                 flag = 0
+#             else:
+#                 res += str[i:i+2]
+#                 flag = 1
+#         elif j - i == 2:
+#             if flag == 0:
+#                 res += str[i:j]
+#                 flag = 1
+#             else:
+#                 res += str[i]
+#                 flag = 0
+#         else:
+#             res += str[i]
+#             flag = 0
+#         i = j
+#     print(res)
 
+# processStr("yyybeettxjjjpppddsrxxxkkkyyyooowwwwwkyyxxppplllwwwiivvssnrvvvccclyydddhaaayiic")
+# print("yybeetxjjpddsrxxkyyowwkyyxpplwwivvsnrvvclyydhaayiic")
 
+import itertools
+n,d = 4,3
+posList = [1,2,3,4]
+diff = {}
+res = 0
+res = 0
+for i in range(n-2):
+    for j in range(n-1,i,-1):
+        if posList[j] - posList[i] <= d:
+            break
+    if j - i >= 2:
+        comb = (j-i)*(j-i-1) // 2
+        res += comb
+print(res)
 # sol = Solution()
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 
 
-
-
-
-
-# sol = Solution()
-# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
-
-
-
-
-
-# sol = Solution()
-# print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
