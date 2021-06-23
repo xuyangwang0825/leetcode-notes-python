@@ -238,7 +238,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0190. Reverse Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0190.%20Reverse%20Bits.md)|2021.03.29|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1006. Clumsy Factorial](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1006.%20Clumsy%20Factorial.md)|2021.04.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0081. Search in Rotated Sorted Array II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/binary%20search/0081.%20Search%20in%20Rotated%20Sorted%20Array%20II.md)|2021.04.08|
-
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0331. Verify Preorder Serialization of a Binary Tree]()|2021.06.23|
 
 ### waitlist
 | Difficulty | Title | Date |
