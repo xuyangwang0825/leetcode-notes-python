@@ -11,10 +11,10 @@
 
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
-| **2020.1** |
+| **2020.01** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0001. Two Sum](https://github.com/Diobrandokill/leetcode-notes/blob/master/hash%20table/0001.%20Two%20Sum.md)|2020.01.11|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0002. Add Two Numbers](https://github.com/Diobrandokill/leetcode-notes/blob/master/linked%20list/0002.%20Add%20Two%20Numbers.md)|2020.01.11|
-| **2020.5** |
+| **2020.05** |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)|2020.05.22|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0076. Minimum Window Substring](https://github.com/Diobrandokill/leetcode-notes/blob/master/sliding%20window/0076.%20Minimum%20Window%20Substring.md)|2020.05.23|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0004. Median of Two Sorted Arrays](https://github.com/Diobrandokill/leetcode-notes/blob/master/binary%20search/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)|2020.05.24|
@@ -26,7 +26,7 @@
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0084. Largest Rectangle in Histogram](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0084.%20Largest%20Rectangle%20in%20Histogram.md)|2020.05.30|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0896. Monotonic Array](https://github.com/Diobrandokill/leetcode-notes/blob/master/stack/0896.%20Monotonic%20Array.md)|2020.05.30|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0101. Symmetric Tree](https://github.com/Diobrandokill/leetcode-notes/blob/master/tree/0101.%20Symmetric%20Tree.md)|2020.05.31|
-| **2020.6** |
+| **2020.06** |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指offer 64. 求1+2+…+n](https://github.com/Diobrandokill/leetcode-notes/blob/master/%E5%89%91%E6%8C%87Offer/64.%20%E6%B1%821%2B2%2B%E2%80%A6%2Bn.md)|2020.06.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0837. New 21 Game](https://github.com/Diobrandokill/leetcode-notes/blob/master/dynamic%20programing/0837.%20New%2021%20Game.md)|2020.06.03|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0238. Product of Array Except Self](https://github.com/Diobrandokill/leetcode-notes/blob/master/math/0238.%20Product%20of%20Array%20Except%20Self.md)|2020.06.04|
@@ -108,7 +108,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/54.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md)|2020.12.31|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 55 - I. 二叉树的深度](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md)|2020.12.31|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[剑指 Offer 55 - II. 平衡二叉树](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/55%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md)|2020.12.31|
-| **2021.1** |
+| **2021.01** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0605. Can Place Flowers](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/0605.%20Can%20Place%20Flowers.md)|2020.01.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)|2020.01.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/%E5%89%91%E6%8C%87Offer/56%20-%20II.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%20II.md)|2020.01.01|
@@ -189,7 +189,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1743. Restore the Array From Adjacent Pairs](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1743.%20Restore%20the%20Array%20From%20Adjacent%20Pairs.md)|2021.01.31|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1744.%20Can%20You%20Eat%20Your%20Favorite%20Candy%20on%20Your%20Favorite%20Day%3F.md)|2021.01.31|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1745. Palindrome Partitioning IV](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/1745.%20Palindrome%20Partitioning%20IV.md)|2021.01.31|
-| **2021.2** |
+| **2021.02** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0888. Fair Candy Swap](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/hash%20table/0888.%20Fair%20Candy%20Swap.md)|2021.02.01|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[0839. Similar String Groups](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/union%20find%20set%20%26%20graph/0839.%20Similar%20String%20Groups.md)|2021.02.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0424. Longest Repeating Character Replacement](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/sliding%20window/0424.%20Longest%20Repeating%20Character%20Replacement.md)|2021.02.02|
@@ -212,6 +212,7 @@
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1774. Closest Dessert Cost](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1774.%20Closest%20Dessert%20Cost.md)|2021.02.28|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/1775.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations.md)|2021.02.28|
 |![hard tag](https://img.shields.io/badge/-hard-red)|[1776. Car Fleet II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1776.%20Car%20Fleet%20II.md)|2021.02.28|
+| **2021.03** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0303.%20Range%20Sum%20Query%20-%20Immutable.md)|2021.03.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
@@ -236,10 +237,12 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0191. Number of 1 Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0191.%20Number%20of%201%20Bits.md)|2021.03.22|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0083. Remove Duplicates from Sorted List](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/linked%20list/0083.%20Remove%20Duplicates%20from%20Sorted%20List.md)|2021.03.26|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0190. Reverse Bits](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/bit%20manipulation/0190.%20Reverse%20Bits.md)|2021.03.29|
+| **2021.04** |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1006. Clumsy Factorial](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/math/1006.%20Clumsy%20Factorial.md)|2021.04.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0081. Search in Rotated Sorted Array II](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/binary%20search/0081.%20Search%20in%20Rotated%20Sorted%20Array%20II.md)|2021.04.08|
+| **2021.06** |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0331. Verify Preorder Serialization of a Binary Tree](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/stack/0331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.md)|2021.06.23|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0705. Design HashSet]()|2021.06.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0705. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0705.%20Design%20HashSet.md)|2021.06.23|
 
 ### waitlist
 | Difficulty | Title | Date |
