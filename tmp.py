@@ -1052,20 +1052,21 @@
 # processStr("yyybeettxjjjpppddsrxxxkkkyyyooowwwwwkyyxxppplllwwwiivvssnrvvvccclyydddhaaayiic")
 # print("yybeetxjjpddsrxxkyyowwkyyxpplwwivvsnrvvclyydhaayiic")
 
-import itertools
-n,d = 4,3
-posList = [1,2,3,4]
-diff = {}
-res = 0
-res = 0
-for i in range(n-2):
-    for j in range(n-1,i,-1):
-        if posList[j] - posList[i] <= d:
-            break
-    if j - i >= 2:
-        comb = (j-i)*(j-i-1) // 2
-        res += comb
-print(res)
+# import itertools
+# n,d = 4,3
+# posList = [1,2,3,4]
+# diff = {}
+# res = 0
+# res = 0
+# for i in range(n-2):
+#     for j in range(n-1,i,-1):
+#         if posList[j] - posList[i] <= d:
+#             break
+#     if j - i >= 2:
+#         comb = (j-i)*(j-i-1) // 2
+#         res += comb
+# print(res)
+
 # sol = Solution()
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 

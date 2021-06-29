@@ -8,7 +8,6 @@
 > 部分题解来源：力扣（LeetCode）
 
 ### **KillCount** : 357 / 1987
-
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
 | **2020.01** |
@@ -243,7 +242,8 @@
 | **2021.06** |
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0331. Verify Preorder Serialization of a Binary Tree](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/stack/0331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.md)|2021.06.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0705. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0705.%20Design%20HashSet.md)|2021.06.23|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0706. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0705.%20Design%20HashMap.md)|2021.06.24|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0706. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0706.%20Design%20HashMap.md)|2021.06.24|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0168. Excel Sheet Column Title]()|2021.06.29|
 
 ### waitlist
 | Difficulty | Title | Date |
