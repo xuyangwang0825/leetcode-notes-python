@@ -244,6 +244,9 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0705. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0705.%20Design%20HashSet.md)|2021.06.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0706. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0706.%20Design%20HashMap.md)|2021.06.24|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0168. Excel Sheet Column Title](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/math/0168.%20Excel%20Sheet%20Column%20Title.md)|2021.06.29|
+| **2021.07** |
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息]()|2021.07.01|
+
 
 ### waitlist
 | Difficulty | Title | Date |
