@@ -246,7 +246,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0168. Excel Sheet Column Title](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/math/0168.%20Excel%20Sheet%20Column%20Title.md)|2021.06.29|
 | **2021.07** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息]()|2021.07.01|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch]()|2021.07.04|
 
 ### waitlist
 | Difficulty | Title | Date |
