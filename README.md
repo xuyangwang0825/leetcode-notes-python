@@ -245,8 +245,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0706. Design HashSet](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/hash%20table/0706.%20Design%20HashMap.md)|2021.06.24|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0168. Excel Sheet Column Title](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/math/0168.%20Excel%20Sheet%20Column%20Title.md)|2021.06.29|
 | **2021.07** |
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息]()|2021.07.01|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch]()|2021.07.04|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/LCP/LCP%2007.%20%E4%BC%A0%E9%80%92%E4%BF%A1%E6%81%AF.md)|2021.07.01|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/array/0645.%20Set%20Mismatch.md)|2021.07.04|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0283. Move Zeroes]()|2021.07.19|
+
 
 ### waitlist
 | Difficulty | Title | Date |
