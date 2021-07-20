@@ -214,7 +214,7 @@
 | **2021.03** |
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0303. Range Sum Query - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0303.%20Range%20Sum%20Query%20-%20Immutable.md)|2021.03.01|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[0304. Range Sum Query 2D - Immutable](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/dynamic%20programing/0304.%20Range%20Sum%20Query%202D%20-%20Immutable.md)|2021.03.02|
-|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits]()|2021.03.03|
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0338. Counting Bits](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/bit%20manipulation/0338.%20Counting%20Bits.md)|2021.03.03|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1779. Find Nearest Point That Has the Same X or Y Coordinate]()|2021.03.06|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1780. Check if Number is a Sum of Powers of Three]()|2021.03.06|
 |![medium tag](https://img.shields.io/badge/-medium-yellow)|[1781. Sum of Beauty of All Substrings]()|2021.03.06|
@@ -248,7 +248,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/LCP/LCP%2007.%20%E4%BC%A0%E9%80%92%E4%BF%A1%E6%81%AF.md)|2021.07.01|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/array/0645.%20Set%20Mismatch.md)|2021.07.04|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0283. Move Zeroes](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/double%20pointers/0283.%20Move%20Zeroes.md)|2021.07.19|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0118. Pascal's Triangle]()|2021.07.20|
 
 ### waitlist
 | Difficulty | Title | Date |
