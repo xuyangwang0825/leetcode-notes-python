@@ -249,7 +249,8 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/array/0645.%20Set%20Mismatch.md)|2021.07.04|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0283. Move Zeroes](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/double%20pointers/0283.%20Move%20Zeroes.md)|2021.07.19|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0118. Pascal's Triangle]()|2021.07.20|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1710. Maximum Units on a Truck]()|2021.07.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1893. Check if All the Integers in a Range Are Covered]()|2021.07.23|
 ### waitlist
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
