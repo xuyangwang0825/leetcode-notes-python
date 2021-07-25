@@ -248,10 +248,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[LCP 07. 传递信息](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/LCP/LCP%2007.%20%E4%BC%A0%E9%80%92%E4%BF%A1%E6%81%AF.md)|2021.07.01|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0645. Set Mismatch](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/array/0645.%20Set%20Mismatch.md)|2021.07.04|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0283. Move Zeroes](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/double%20pointers/0283.%20Move%20Zeroes.md)|2021.07.19|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0118. Pascal's Triangle]()|2021.07.20|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1710. Maximum Units on a Truck]()|2021.07.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0118. Pascal's Triangle](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/math/0118.%20Pascal's%20Triangle.md)|2021.07.20|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1710. Maximum Units on a Truck](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/greedy%20method/1710.%20Maximum%20Units%20on%20a%20Truck.md)|2021.07.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1893. Check if All the Integers in a Range Are Covered]()|2021.07.23|
-|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0415. Add Strings]()|2021.07.25|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0415. Add Strings](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/string/0415.%20Add%20Strings.md)|2021.07.25|
 
 
 
