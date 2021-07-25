@@ -251,6 +251,10 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0118. Pascal's Triangle]()|2021.07.20|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1710. Maximum Units on a Truck]()|2021.07.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1893. Check if All the Integers in a Range Are Covered]()|2021.07.23|
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0415. Add Strings]()|2021.07.25|
+
+
+
 ### waitlist
 | Difficulty | Title | Date |
 |:----------:|:-----:|:----:|
