@@ -1070,4 +1070,30 @@
 # sol = Solution()
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 
+import heapq
+class Solution:
+    def maximumNumber(self, num, change) -> str:
+        res = ""
+        flag = -1
+        for i in range(len(num)):
+            i_c = int(num[i])
+            if change[i_c] <= i_c:
+                res += num[i]
+            else:
+                flag = i
+                break
+        if flag == -1: return res
+        while flag < len(num):
+            i_c = int(num[flag])
+            if change[i_c] > i_c:
+                res += str(change[i_c]) 
+            else:
+                break
+            flag += 1
+        while flag < len(num):
+            res += num[flag]
+            flag += 1
+        return res
 
+sol = Solution()
+print(sol.maximumNumber("5",[1,4,7,5,3,2,5,6,9,4]))
