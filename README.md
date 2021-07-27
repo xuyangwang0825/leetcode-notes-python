@@ -253,7 +253,7 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[1893. Check if All the Integers in a Range Are Covered]()|2021.07.23|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0415. Add Strings](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/string/0415.%20Add%20Strings.md)|2021.07.25|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0455. Assign Cookies](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/greedy%20method/0455.%20Assign%20Cookies.md)|2021.07.26|
-
+|![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0088. Merge Sorted Array]()|2021.07.26|
 
 ### waitlist
 | Difficulty | Title | Date |
