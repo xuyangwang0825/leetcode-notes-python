@@ -1070,30 +1070,61 @@
 # sol = Solution()
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 
-import heapq
+# import heapq
+# class Solution:
+#     def maximumNumber(self, num, change) -> str:
+#         res = ""
+#         flag = -1
+#         for i in range(len(num)):
+#             i_c = int(num[i])
+#             if change[i_c] <= i_c:
+#                 res += num[i]
+#             else:
+#                 flag = i
+#                 break
+#         if flag == -1: return res
+#         while flag < len(num):
+#             i_c = int(num[flag])
+#             if change[i_c] > i_c:
+#                 res += str(change[i_c]) 
+#             else:
+#                 break
+#             flag += 1
+#         while flag < len(num):
+#             res += num[flag]
+#             flag += 1
+#         return res
+
+# sol = Solution()
+# print(sol.maximumNumber("5",[1,4,7,5,3,2,5,6,9,4]))
+
+# class Solution:
+#     def isThree(self, n) -> bool:
+#         i = 1
+#         flag = 0
+#         while n != 1:
+#             if flag > 3: return False
+#             if n % i == 0:
+#                 n //= i
+#                 flag += 1
+#             i += 1
+#         if flag == 3: return True
+#         else: return False
+
+# sol = Solution()
+# print(sol.isThree(4))
+
 class Solution:
-    def maximumNumber(self, num, change) -> str:
-        res = ""
-        flag = -1
-        for i in range(len(num)):
-            i_c = int(num[i])
-            if change[i_c] <= i_c:
-                res += num[i]
-            else:
-                flag = i
-                break
-        if flag == -1: return res
-        while flag < len(num):
-            i_c = int(num[flag])
-            if change[i_c] > i_c:
-                res += str(change[i_c]) 
-            else:
-                break
-            flag += 1
-        while flag < len(num):
-            res += num[flag]
-            flag += 1
-        return res
+    def minimumPerimeter(self, neededApples: int) -> int:
+        base = 1
+        tmp = 8
+        tmp_all = 8
+        while tmp < neededApples:
+            tmp += (base*2 + 1)*4 + 8
+            tmp_all += tmp
+            base += 1
+        return base * 8
 
 sol = Solution()
-print(sol.maximumNumber("5",[1,4,7,5,3,2,5,6,9,4]))
+print(sol.minimumPerimeter(1000000000))
+
