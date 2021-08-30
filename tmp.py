@@ -1114,17 +1114,102 @@
 # sol = Solution()
 # print(sol.isThree(4))
 
-class Solution:
-    def minimumPerimeter(self, neededApples: int) -> int:
-        base = 1
-        tmp = 8
-        tmp_all = 8
-        while tmp < neededApples:
-            tmp += (base*2 + 1)*4 + 8
-            tmp_all += tmp
-            base += 1
-        return base * 8
+# class Solution:
+#     def minimumPerimeter(self, neededApples: int) -> int:
+#         base = 1
+#         tmp = 8
+#         tmp_all = 8
+#         while tmp < neededApples:
+#             tmp += (base*2 + 1)*4 + 8
+#             tmp_all += tmp
+#             base += 1
+#         return base * 8
 
-sol = Solution()
-print(sol.minimumPerimeter(1000000000))
+# class Solution:
+#     def minimizeTheDifference(self, mat, target):
+#         res1 = float("inf")
+#         m,n = len(mat),len(mat[0])
+#         def dfs(tmp,line):
+#             global res1
+#             if line == n:
+#                 res1 = min(res1,abs(tmp-target))
+#                 return
+#             for i in range(n):
+#                 if (tmp+mat[line][i] - target) < res1:
+#                     dfs(tmp+mat[line][i],line)
+#         dfs(0,0)
+#         return res1
 
+
+# twitch oa
+def solution(streamerInformation, commands):
+
+    ret = []
+
+    # initialization
+    pos = 0
+
+    # dict record the position of info
+    streamerDict = {}
+    while pos < len(streamerInformation):
+        streamerDict[streamerInformation[pos].strip()] = pos
+        pos += 3
+    pos = 0
+    while pos < len(commands):
+        if commands[pos].strip() == "StreamerOnline":
+            if commands[pos+1].strip() not in streamerDict:
+                streamerInformation.append(commands[pos+1].strip())
+                streamerInformation.append(commands[pos+2].strip())
+                streamerInformation.append(commands[pos+3].strip())
+            pos += 4
+        elif commands[pos].strip() == "UpdateViews":
+            if commands[pos+1].strip() in streamerDict:
+                editPos = streamerDict[commands[pos+1].strip()] + 1
+                if streamerInformation[editPos+1].strip() == commands[pos+3].strip():
+                    streamerInformation[editPos] = commands[pos+2].strip()
+            pos += 4
+        elif commands[pos].strip() == "UpdateCategory":
+            if commands[pos+1].strip() in streamerDict:
+                editPos = streamerDict[commands[1].strip()] + 2
+                if streamerInformation[editPos].strip() == commands[pos+2].strip():
+                    streamerInformation[editPos] = commands[pos+3]
+            pos += 4
+        elif commands[pos].strip() == "StreamerOffline":
+            if commands[pos+1].strip() in streamerDict:
+                editPos = streamerDict[commands[pos+1].strip()]
+                if streamerInformation[editPos+2].strip() ==  commands[pos+2].strip():
+                    del streamerDict[streamerInformation[editPos].strip()]
+                    streamerInformation[editPos] = ""
+                    streamerInformation[editPos+1] = ""
+                    streamerInformation[editPos+2] = ""
+            pos += 3
+        elif commands[pos].strip() == "ViewsInCategory":
+            res = 0
+            for key,value in streamerDict.items():
+                if streamerInformation[value+2].strip() == commands[pos+1].strip():
+                    res += int(streamerInformation[value+1].strip())
+            pos += 2
+            ret.append(str(res))
+        elif commands[pos].strip() == "TopStreamerInCategory":
+            res = ""
+            tmpNum = float("-inf")
+            for key,value in streamerDict.items():
+                if streamerInformation[value+2].strip() == commands[pos+1].strip():
+                    if int(streamerInformation[value+1].strip()) > tmpNum:
+                        res = streamerInformation[value]
+            pos += 2
+            ret.append(str(res))
+        elif commands[pos].strip() == "TopStreamer":
+            res = ""
+            tmpNum = float("-inf")
+            for key,value in streamerDict.items():
+                if int(streamerInformation[value+1].strip()) > tmpNum:
+                    res = streamerInformation[value].strip()
+                    tmpNum = int(streamerInformation[value+1].strip())
+            ret.append(str(res))
+            pos += 2
+    return ret
+
+
+print(solution(["Ninja", " 100000", " Fortnite", " Pokimane", " 40000", " Valorant"], ["UpdateCategory", "  Ninja", " Fortnite", " Warzone", " ViewsInCategory", " Fortnite", " ViewsInCategory", " Warzone"]))
+print('\",\"')
