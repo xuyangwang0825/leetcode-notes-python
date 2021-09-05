@@ -1142,74 +1142,166 @@
 
 
 # twitch oa
-def solution(streamerInformation, commands):
+# def solution(streamerInformation, commands):
 
-    ret = []
+#     ret = []
 
-    # initialization
-    pos = 0
+#     # initialization
+#     pos = 0
 
-    # dict record the position of info
-    streamerDict = {}
-    while pos < len(streamerInformation):
-        streamerDict[streamerInformation[pos].strip()] = pos
-        pos += 3
-    pos = 0
-    while pos < len(commands):
-        if commands[pos].strip() == "StreamerOnline":
-            if commands[pos+1].strip() not in streamerDict:
-                streamerInformation.append(commands[pos+1].strip())
-                streamerInformation.append(commands[pos+2].strip())
-                streamerInformation.append(commands[pos+3].strip())
-            pos += 4
-        elif commands[pos].strip() == "UpdateViews":
-            if commands[pos+1].strip() in streamerDict:
-                editPos = streamerDict[commands[pos+1].strip()] + 1
-                if streamerInformation[editPos+1].strip() == commands[pos+3].strip():
-                    streamerInformation[editPos] = commands[pos+2].strip()
-            pos += 4
-        elif commands[pos].strip() == "UpdateCategory":
-            if commands[pos+1].strip() in streamerDict:
-                editPos = streamerDict[commands[1].strip()] + 2
-                if streamerInformation[editPos].strip() == commands[pos+2].strip():
-                    streamerInformation[editPos] = commands[pos+3]
-            pos += 4
-        elif commands[pos].strip() == "StreamerOffline":
-            if commands[pos+1].strip() in streamerDict:
-                editPos = streamerDict[commands[pos+1].strip()]
-                if streamerInformation[editPos+2].strip() ==  commands[pos+2].strip():
-                    del streamerDict[streamerInformation[editPos].strip()]
-                    streamerInformation[editPos] = ""
-                    streamerInformation[editPos+1] = ""
-                    streamerInformation[editPos+2] = ""
-            pos += 3
-        elif commands[pos].strip() == "ViewsInCategory":
-            res = 0
-            for key,value in streamerDict.items():
-                if streamerInformation[value+2].strip() == commands[pos+1].strip():
-                    res += int(streamerInformation[value+1].strip())
-            pos += 2
-            ret.append(str(res))
-        elif commands[pos].strip() == "TopStreamerInCategory":
-            res = ""
-            tmpNum = float("-inf")
-            for key,value in streamerDict.items():
-                if streamerInformation[value+2].strip() == commands[pos+1].strip():
-                    if int(streamerInformation[value+1].strip()) > tmpNum:
-                        res = streamerInformation[value]
-            pos += 2
-            ret.append(str(res))
-        elif commands[pos].strip() == "TopStreamer":
-            res = ""
-            tmpNum = float("-inf")
-            for key,value in streamerDict.items():
-                if int(streamerInformation[value+1].strip()) > tmpNum:
-                    res = streamerInformation[value].strip()
-                    tmpNum = int(streamerInformation[value+1].strip())
-            ret.append(str(res))
-            pos += 2
-    return ret
+#     # dict record the position of info
+#     streamerDict = {}
+#     while pos < len(streamerInformation):
+#         streamerDict[streamerInformation[pos].strip()] = pos
+#         pos += 3
+#     pos = 0
+#     while pos < len(commands):
+#         if commands[pos].strip() == "StreamerOnline":
+#             if commands[pos+1].strip() not in streamerDict:
+#                 streamerInformation.append(commands[pos+1].strip())
+#                 streamerInformation.append(commands[pos+2].strip())
+#                 streamerInformation.append(commands[pos+3].strip())
+#             pos += 4
+#         elif commands[pos].strip() == "UpdateViews":
+#             if commands[pos+1].strip() in streamerDict:
+#                 editPos = streamerDict[commands[pos+1].strip()] + 1
+#                 if streamerInformation[editPos+1].strip() == commands[pos+3].strip():
+#                     streamerInformation[editPos] = commands[pos+2].strip()
+#             pos += 4
+#         elif commands[pos].strip() == "UpdateCategory":
+#             if commands[pos+1].strip() in streamerDict:
+#                 editPos = streamerDict[commands[1].strip()] + 2
+#                 if streamerInformation[editPos].strip() == commands[pos+2].strip():
+#                     streamerInformation[editPos] = commands[pos+3]
+#             pos += 4
+#         elif commands[pos].strip() == "StreamerOffline":
+#             if commands[pos+1].strip() in streamerDict:
+#                 editPos = streamerDict[commands[pos+1].strip()]
+#                 if streamerInformation[editPos+2].strip() ==  commands[pos+2].strip():
+#                     del streamerDict[streamerInformation[editPos].strip()]
+#                     streamerInformation[editPos] = ""
+#                     streamerInformation[editPos+1] = ""
+#                     streamerInformation[editPos+2] = ""
+#             pos += 3
+#         elif commands[pos].strip() == "ViewsInCategory":
+#             res = 0
+#             for key,value in streamerDict.items():
+#                 if streamerInformation[value+2].strip() == commands[pos+1].strip():
+#                     res += int(streamerInformation[value+1].strip())
+#             pos += 2
+#             ret.append(str(res))
+#         elif commands[pos].strip() == "TopStreamerInCategory":
+#             res = ""
+#             tmpNum = float("-inf")
+#             for key,value in streamerDict.items():
+#                 if streamerInformation[value+2].strip() == commands[pos+1].strip():
+#                     if int(streamerInformation[value+1].strip()) > tmpNum:
+#                         res = streamerInformation[value]
+#             pos += 2
+#             ret.append(str(res))
+#         elif commands[pos].strip() == "TopStreamer":
+#             res = ""
+#             tmpNum = float("-inf")
+#             for key,value in streamerDict.items():
+#                 if int(streamerInformation[value+1].strip()) > tmpNum:
+#                     res = streamerInformation[value].strip()
+#                     tmpNum = int(streamerInformation[value+1].strip())
+#             ret.append(str(res))
+#             pos += 2
+#     return ret
 
 
-print(solution(["Ninja", " 100000", " Fortnite", " Pokimane", " 40000", " Valorant"], ["UpdateCategory", "  Ninja", " Fortnite", " Warzone", " ViewsInCategory", " Fortnite", " ViewsInCategory", " Warzone"]))
-print('\",\"')
+# print(solution(["Ninja", " 100000", " Fortnite", " Pokimane", " 40000", " Valorant"], ["UpdateCategory", "  Ninja", " Fortnite", " Warzone", " ViewsInCategory", " Fortnite", " ViewsInCategory", " Warzone"]))
+# print('\",\"')
+
+# import collections
+# class Solution:
+#     def firstDayBeenInAllRooms(self, nextVisit):
+#         visitNum = collections.defaultdict(int)
+#         n = len(nextVisit)
+#         day = 0
+#         room = nextVisit[0]
+#         checkset = set()
+#         while True:
+#             if room not in checkset:
+#                 checkset.add(room)
+#             if len(checkset) == n:
+#                 return day % 1000000007
+#             visitNum[room] += 1
+#             day += 1
+#             if visitNum[room] % 2:
+#                 room =  nextVisit[day]
+#             else:
+#                 room = (room + 1) % n
+
+# sol = Solution()
+# print(sol.firstDayBeenInAllRooms([0,0,2]))
+
+
+# def countHighlyProfitableMonths(stockPrices, k):
+#     print(stockPrices,k)
+#     # Write your code here
+#     r = 1
+#     res = 0
+#     strInc = 1
+#     n = len(stockPrices)
+#     while r < n:
+#         if stockPrices[r] > stockPrices[r-1]:
+#             strInc += 1
+#         else:
+#             if strInc >= k:
+#                 res += strInc - k + 1
+#                 strInc = 1
+#         r += 1
+#     if strInc >= k:
+#         res += strInc - k + 1
+#     return res
+
+# print(countHighlyProfitableMonths([6426, 9445, 8772, 81, 3447, 629, 3497, 7202, 7775, 4325, 3982, 4784, 8417, 2156, 1932, 5902, 5728, 8537, 3857, 739, 6918, 9211, 9679, 8506, 3340, 6568, 1868, 16, 7940, 6263, 4593, 1449, 6991, 310, 3355, 7068, 1431, 8580, 1757, 9218, 4934, 4328, 3676, 9355, 6221, 9080],3))
+
+
+def getUnallottedUsers(bids, totalShares):
+    print(bids, totalShares)
+    # Write your code here
+    sortedBids = sorted(sorted(bids, key = lambda x:x[3], reverse = False), key = lambda x:x[2], reverse = True)
+    share = {}
+    if len(sortedBids) == 1:
+        if totalShares < sortedBids[0][1]:
+            return [sortedBids[0][0]]
+        else:
+            return []
+    for i in range(len(sortedBids)):
+        if totalShares > 0:
+            if i == len(sortedBids) -1 or sortedBids[i][2] > sortedBids[i+1][2]:
+                share[sortedBids[i][0]] = "get"
+                if totalShares < sortedBids[i][1]:
+                    return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+                totalShares -= sortedBids[i][1]
+            else:
+                sumShare = sortedBids[i][1]
+                end = i
+                for j in range(i,len(sortedBids)-1):
+                    end = j
+                    if sortedBids[j][2] == sortedBids[j+1][2]:
+                        sumShare += sortedBids[j+1][1] 
+                    else:
+                        break
+                if totalShares < end-i:
+                    for x in range(i,len(sortedBids)):
+                        if totalShares > 0:
+                            share[sortedBids[x][0]] = "get"
+                            totalShares -= 1
+                        else:
+                            sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+                elif totalShares > sumShare:
+                    for x in range(i, end+1):
+                        share[sortedBids[x][0]] = "get"
+                    totalShares -= sumShare
+                else:
+                    for x in range(i, end+1):
+                        share[sortedBids[x][0]] = "get"
+                    return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+        else:
+            return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+
+print(getUnallottedUsers([[1, 2, 1, 3535], [2, 2, 2, 346]],3))
