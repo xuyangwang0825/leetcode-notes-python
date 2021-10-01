@@ -1260,48 +1260,345 @@
 # print(countHighlyProfitableMonths([6426, 9445, 8772, 81, 3447, 629, 3497, 7202, 7775, 4325, 3982, 4784, 8417, 2156, 1932, 5902, 5728, 8537, 3857, 739, 6918, 9211, 9679, 8506, 3340, 6568, 1868, 16, 7940, 6263, 4593, 1449, 6991, 310, 3355, 7068, 1431, 8580, 1757, 9218, 4934, 4328, 3676, 9355, 6221, 9080],3))
 
 
-def getUnallottedUsers(bids, totalShares):
-    print(bids, totalShares)
-    # Write your code here
-    sortedBids = sorted(sorted(bids, key = lambda x:x[3], reverse = False), key = lambda x:x[2], reverse = True)
-    share = {}
-    if len(sortedBids) == 1:
-        if totalShares < sortedBids[0][1]:
-            return [sortedBids[0][0]]
-        else:
-            return []
-    for i in range(len(sortedBids)):
-        if totalShares > 0:
-            if i == len(sortedBids) -1 or sortedBids[i][2] > sortedBids[i+1][2]:
-                share[sortedBids[i][0]] = "get"
-                if totalShares < sortedBids[i][1]:
-                    return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
-                totalShares -= sortedBids[i][1]
-            else:
-                sumShare = sortedBids[i][1]
-                end = i
-                for j in range(i,len(sortedBids)-1):
-                    end = j
-                    if sortedBids[j][2] == sortedBids[j+1][2]:
-                        sumShare += sortedBids[j+1][1] 
-                    else:
-                        break
-                if totalShares < end-i:
-                    for x in range(i,len(sortedBids)):
-                        if totalShares > 0:
-                            share[sortedBids[x][0]] = "get"
-                            totalShares -= 1
-                        else:
-                            sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
-                elif totalShares > sumShare:
-                    for x in range(i, end+1):
-                        share[sortedBids[x][0]] = "get"
-                    totalShares -= sumShare
-                else:
-                    for x in range(i, end+1):
-                        share[sortedBids[x][0]] = "get"
-                    return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
-        else:
-            return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+# def getUnallottedUsers(bids, totalShares):
+#     print(bids, totalShares)
+#     # Write your code here
+#     sortedBids = sorted(sorted(bids, key = lambda x:x[3], reverse = False), key = lambda x:x[2], reverse = True)
+#     share = {}
+#     if len(sortedBids) == 1:
+#         if totalShares < sortedBids[0][1]:
+#             return [sortedBids[0][0]]
+#         else:
+#             return []
+#     for i in range(len(sortedBids)):
+#         if totalShares > 0:
+#             if i == len(sortedBids) -1 or sortedBids[i][2] > sortedBids[i+1][2]:
+#                 share[sortedBids[i][0]] = "get"
+#                 if totalShares < sortedBids[i][1]:
+#                     return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+#                 totalShares -= sortedBids[i][1]
+#             else:
+#                 sumShare = sortedBids[i][1]
+#                 end = i
+#                 for j in range(i,len(sortedBids)-1):
+#                     end = j
+#                     if sortedBids[j][2] == sortedBids[j+1][2]:
+#                         sumShare += sortedBids[j+1][1] 
+#                     else:
+#                         break
+#                 if totalShares < end-i:
+#                     for x in range(i,len(sortedBids)):
+#                         if totalShares > 0:
+#                             share[sortedBids[x][0]] = "get"
+#                             totalShares -= 1
+#                         else:
+#                             sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+#                 elif totalShares > sumShare:
+#                     for x in range(i, end+1):
+#                         share[sortedBids[x][0]] = "get"
+#                     totalShares -= sumShare
+#                 else:
+#                     for x in range(i, end+1):
+#                         share[sortedBids[x][0]] = "get"
+#                     return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
+#         else:
+#             return sorted([x[0] for x in sortedBids if x[0] not in list(share.keys())])
 
-print(getUnallottedUsers([[1, 2, 1, 3535], [2, 2, 2, 346]],3))
+# print(getUnallottedUsers([[1, 2, 1, 3535], [2, 2, 2, 346]],3))
+
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+# 2021.9.11 Okta OA
+# def solution(B):
+#     B = [list(row) for row in B] 
+#     termX, termY = len(B)-1, len(B[0])-1
+#     startX, startY = 0,0
+#     for i, row in enumerate(B):
+#         for j, block in enumerate(row):
+#             if block == '>':
+#                 for k in range(j+1, len(row)):
+#                     if B[i][k] in ['X', '>', '<', '^', 'v']:
+#                         break
+#                     B[i][k] = 'C'
+#             elif block == '<':
+#                 for k in range(j):
+#                     if B[i][k] in ['X', '>', '<', '^', 'v']:
+#                         break
+#                     B[i][k] = 'C'
+#             elif block == '^':
+#                 for k in range(i):
+#                     if B[k][j] in ['X', '>', '<', '^', 'v']:
+#                         break
+#                     B[k][j] = 'C'
+#             elif block == 'v':
+#                 for k in range(i+1,len(B)):
+#                     if B[k][j] in ['X', '>', '<', '^', 'v']:
+#                         break
+#                     B[k][j] = 'C'
+#             elif block == 'A':
+#                 startX, startY = i, j
+
+#     checkSet = set()
+#     def dfs(x,y):
+#         # out of space
+#         if str((x, y)) in checkSet:
+#             return False
+#         if x < 0 or x > termX or y < 0 or y > termY:
+#             return False
+#         # sneak success
+#         if B[x][y] in ['X', '>', '<', '^', 'v', 'C']:
+#             return False
+#         if x == termX and y == termY:
+#             return True
+#         checkSet.add(str((x, y)))
+#         return dfs(x+1,y) or dfs(x-1,y) or dfs(x,y+1) or dfs(x,y-1)
+
+#     return dfs(startX, startY)
+
+
+# print(solution(['A.v', '...']))
+
+# class Solution:
+#     def bicycleYard(self, position: List[int], terrain: List[List[int]], obstacle: List[List[int]]) -> List[List[int]]:
+#         self.res = []
+#         self.visit = [[0 for i in range(len(terrain[0]))] for j in range(len(terrain))]
+        
+#         def dfs(self,x,y,v):
+#             if v <= 0:
+#                 return
+#             if self.visit[x][y] == 1:
+#                 return
+#             self.visit[x][y] = 1
+#             if v == 1 and [x,y] != position:
+#                 self.res.append([x,y])
+#             if x < len(terrain)-1:
+#                 dfs(self,x+1,y,v + terrain[x][y]-terrain[x+1][y] - obstacle[x+1][y])
+#             if x > 0:
+#                 dfs(self,x-1,y,v + terrain[x][y]-terrain[x-1][y]-obstacle[x-1][y])
+#             if y < len(terrain[0])-1:
+#                 dfs(self,x,y+1,v + terrain[x][y]-terrain[x][y+1]-obstacle[x][y+1])
+#             if y > 0:
+#                 dfs(self,x,y-1,v + terrain[x][y]-terrain[x][y-1]-obstacle[x][y-1])
+                
+#         dfs(self,position[0],position[1],1)
+#         return sorted(self.res)
+
+# sol = Solution()
+# sol.bicycleYard()
+
+# stripe vo1 MutualRank / WishList / ChangePair
+dic = {}
+dic['a'] = ['b','c','d']
+dic['b'] = ['a','c','d']
+dic['c'] = ['d','a']
+dic['d'] = ['a','c']
+
+def hasMutualFirstChoice(name):
+    if name not in dic:
+        return False
+
+    fChoice = dic[name][0]
+    return dic[fChoice][0] == name
+
+# set rank
+def hasMutualFirstChoice1(name, index):
+    if name not in dic or index >= len(dic[name]):
+        return False
+
+    fChoice = dic[name][index]
+    return dic[fChoice][index] == name
+
+# swap index, index-1
+def hasMutualFirstChoice2(name, index):
+    res = []
+
+    if hasMutualFirstChoice1(name, index):
+        res.append(dic[name][index])
+
+    if name in dic and index < len(dic[name]):
+        fChoice = dic[name][index-1]
+
+        if dic[fChoice][index] == name:
+            res.append(fChoice)
+
+    return res
+
+# print(hasMutualFirstChoice('d'))
+# print(hasMutualFirstChoice1('a',1))
+# print(hasMutualFirstChoice2('c',1))
+
+# stripe vo2 HTTP Header Parsing
+# Part 1
+
+# In an HTTP request, the Accept-Language header describes the list of
+# languages that the requester would like content to be returned in. The header
+# takes the form of a comma-separated list of language tags. For example:
+
+# Accept-Language: en-US, fr-CA, fr-FR
+
+# means that the reader would accept:
+
+# 1. English as spoken in the United States (most preferred)
+# 2. French as spoken in Canada
+# 3. French as spoken in France (least preferred)
+
+# We're writing a server that needs to return content in an acceptable language
+# for the requester, and we want to make use of this header. Our server doesn't
+# support every possible language that might be requested (yet!), but there is a
+# set of languages that we do support. Write a function that receives two arguments:
+# an Accept-Language header value as a string and a set of supported languages,
+# and returns the list of language tags that that will work for the request. The
+# language tags should be returned in descending order of preference (the
+# same order as they appeared in the header).
+
+# In addition to writing this function, you should use tests to demonstrate that it's
+# correct, either via an existing testing system or one you create.
+
+# Examples:
+
+# parse_accept_language(
+# "en-US, fr-CA, fr-FR", # the client's Accept-Language header, a string
+# ["fr-FR", "en-US"] # the server's supported languages, a set of strings
+# )
+# returns: ["en-US", "fr-FR"]
+
+# parse_accept_language("fr-CA, fr-FR", ["en-US", "fr-FR"])
+# returns: ["fr-FR"]
+
+# parse_accept_language("en-US", ["en-US", "fr-CA"])
+# returns: ["en-US"]
+
+def headerPase(cLan, sLan):
+    res = []
+    lan_dic = {}
+    cLan = cLan.split(", ")
+
+    for lan in sLan:
+        lan_dic[lan] = 1
+
+    for lan in cLan:
+        if lan in lan_dic:
+            res.append(lan)
+
+    return res
+
+# print(headerPase("en-US, fr-CA, fr-FR", ["fr-FR", "en-US"]))
+
+# Part 2
+
+# Accept-Language headers will often also include a language tag that is not
+# region-specific - for example, a tag of "en" means "any variant of English". Extend
+# your function to support these language tags by letting them match all specific
+# variants of the language.
+
+# Examples:
+
+# parse_accept_language("en", ["en-US", "fr-CA", "fr-FR"])
+# returns: ["en-US"]
+
+# parse_accept_language("fr", ["en-US", "fr-CA", "fr-FR"])
+# returns: ["fr-CA", "fr-FR"]
+
+# parse_accept_language("fr-FR, fr", ["en-‍‌‌‌‌‌‌‍‌‍‌‌‌‌‌‌‍‌‌‍US", "fr-CA", "fr-FR"])
+# returns: ["fr-FR", "fr-CA"]
+
+
+def headerPase2(cLan, sLan):
+    res = []
+    # lan_dic = {}
+    cLan = cLan.split(", ")
+
+    # for lan in sLan:å
+    #     lan_dic[lan] = 1
+
+    for lan in cLan:
+        for k in sLan:
+            if lan in k and k not in res:
+                res.append(k)
+    return res
+
+# print(headerPase2("fr-FR, fr", ["en-‍‌‌‌‌‌‌‍‌‍‌‌‌‌‌‌‍‌‌‍US", "fr-CA", "fr-FR"]))
+
+# Part 3
+
+# Accept-Language headers will sometimes include a "wildcard" entry, represented
+# by an asterisk, which means "all other languages". Extend your function to
+# support the wildcard entry.
+
+# Examples:
+
+# parse_accept_language("en-US, *", ["en-US", "fr-CA", "fr-FR"])
+# returns: ["en-US", "fr-CA", "fr-FR"]
+
+# parse_accept_language("fr-FR, fr, *", ["en-US", "fr-CA", "fr-FR"])
+# returns: ["fr-FR", "fr-CA", "en-US"]
+
+def headerPase3(cLan, sLan):
+    res = []
+    # lan_dic = {}
+    cLan = cLan.split(", ")
+
+    # for lan in sLan:
+    #     lan_dic[lan] = 1
+
+    for lan in cLan:
+        for k in sLan:
+            if (lan in k or lan == '*') and k not in res:
+                res.append(k)
+    return res
+
+# print(headerPase3("fr-FR, fr, *", ["en-US", "fr-CA", "fr-FR"]))
+
+# stripe vo3 Server Remove Penalty
+# Throughout this interview, we'll write code to analyze a simple server process uptime log.
+# These logs are much simplified, and are just strings of space separated 0's and 1's.
+# The log is a string of binary digits (e.g. "0 0 1 0"). Each digit corresponds to
+# 1 hour of the server running:
+
+# "1" = <crashed>, "down" // server process crashed during the hour
+# "0" = <didn't crash>, "up" // server process did not crash during the hour
+
+# EXAMPLE: A server with log "0 0 1 0" ran for 4 hours and its process crashed during hour #3
+
+#    hour: |1|2|3|4|
+#    log : |0|0|1|0|
+#               ^
+#               |
+#              down during hour #3
+
+# We can *permanently remove* a server at the beginning of any hour during its operation.
+# A server is on the network until it is removed. Note that a server stays POWERED ON after
+# removal, it's just not on the network.
+
+# We'd like to understand the best times to remove a server. So let's introduce an aggregate
+# metric called a "penalty" for removing a server at a bad time.
+
+
+# EXAMPLE: Remove a server with log "0 0 1 0"
+
+
+
+
+
+
+
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+unittest.main()
