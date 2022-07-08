@@ -840,7 +840,7 @@
 
 # class Solution:
 #     def maxHappyGroups(self, batchSize, groups):
-#         res = 0 
+#         res = 0
 #         tmp_dict = {}
 #         for i in range(batchSize):
 #             if i != 0:
@@ -850,14 +850,14 @@
 #             if tmp == 0: res += 1
 #             else:
 #             # else:
-#             #     if tmp_dict[batchSize - tmp] > 0: 
+#             #     if tmp_dict[batchSize - tmp] > 0:
 #             #         res += 1
 #             #         tmp_dict[batchSize - tmp] -= 1
 #             #     else:
 #             #         tmp_dict[tmp] += 1
 #                 tmp_dict[tmp] += 1
 #         print(tmp_dict)
-#         for i in sorted (tmp_dict) : 
+#         for i in sorted (tmp_dict) :
 #             # print ((i, tmp_dict[i]), end =" ")
 #             tmp = tmp_dict[i]
 #             while tmp_dict[i] and tmp:
@@ -902,23 +902,23 @@
 # print(sol.minAbsoluteSumDiff([1,10,4,4,2,7],[9,3,5,1,7,4]))
 
 # class Solution:
-    # def purchasePlans(self, nums, target):
-    #     num_dict = {}
-    #     res = 0
-    #     for i,num in enumerate(nums):
-    #         if num >= target: break
-    #         for k in range(1,target-num+1):
-    #             if k in num_dict:
-    #                 res += num_dict[k]
-    #                 res %= 1000000007
-    #         if i in num_dict: num_dict[i] += 1
-    #         else: num_dict[num] = 1
-    #     return res % 1000000007
+# def purchasePlans(self, nums, target):
+#     num_dict = {}
+#     res = 0
+#     for i,num in enumerate(nums):
+#         if num >= target: break
+#         for k in range(1,target-num+1):
+#             if k in num_dict:
+#                 res += num_dict[k]
+#                 res %= 1000000007
+#         if i in num_dict: num_dict[i] += 1
+#         else: num_dict[num] = 1
+#     return res % 1000000007
 #     def orchestraLayout(self, num, xPos, yPos):
 #         yueqi = [i for i in range(1,10)]
 #         matrix = [[0 for i in range(num)] for i in range(num)]
 #         pos = 0
-        
+
 #         rows = columns = num
 #         visited = [[False] * columns for _ in range(rows)]
 #         total = rows * columns
@@ -928,7 +928,7 @@
 #         directionIndex = 0
 #         for i in range(total):
 #             matrix[row][column] = yueqi[pos]
-#             if pos < 8: pos += 1  
+#             if pos < 8: pos += 1
 #             else: pos = 0
 #             visited[row][column] = True
 #             nextRow, nextColumn = row + directions[directionIndex][0], column + directions[directionIndex][1]
@@ -958,19 +958,19 @@
 #             else: return tmp % 9
 #         else: start += n
 
-#         if yPos == yr: 
+#         if yPos == yr:
 #             tmp = (start + xPos - xl + 1)
 #             if tmp % 9 == 0: return 9
 #             else: return tmp % 9
 #         else: start += n
-        
-#         if xPos == xr: 
+
+#         if xPos == xr:
 #             tmp = (start + yr - yPos + 1)
 #             if tmp % 9 == 0: return 9
 #             else: return tmp % 9
 #         else: start += n
-        
-#         if yPos == yl: 
+
+#         if yPos == yl:
 #             tmp = (start + xr - xPos + 1)
 #             if tmp % 9 == 0: return 9
 #             else: return tmp % 9
@@ -1017,9 +1017,6 @@
 
 # sol = Solution()
 # print(sol.storeWater([3,2,1],[6,6,6]))
-
-
-
 
 
 # def processStr(str):
@@ -1086,7 +1083,7 @@
 #         while flag < len(num):
 #             i_c = int(num[flag])
 #             if change[i_c] > i_c:
-#                 res += str(change[i_c]) 
+#                 res += str(change[i_c])
 #             else:
 #                 break
 #             flag += 1
@@ -1283,7 +1280,7 @@
 #                 for j in range(i,len(sortedBids)-1):
 #                     end = j
 #                     if sortedBids[j][2] == sortedBids[j+1][2]:
-#                         sumShare += sortedBids[j+1][1] 
+#                         sumShare += sortedBids[j+1][1]
 #                     else:
 #                         break
 #                 if totalShares < end-i:
@@ -1311,7 +1308,7 @@
 
 # 2021.9.11 Okta OA
 # def solution(B):
-#     B = [list(row) for row in B] 
+#     B = [list(row) for row in B]
 #     termX, termY = len(B)-1, len(B[0])-1
 #     startX, startY = 0,0
 #     for i, row in enumerate(B):
@@ -1363,7 +1360,7 @@
 #     def bicycleYard(self, position: List[int], terrain: List[List[int]], obstacle: List[List[int]]) -> List[List[int]]:
 #         self.res = []
 #         self.visit = [[0 for i in range(len(terrain[0]))] for j in range(len(terrain))]
-        
+
 #         def dfs(self,x,y,v):
 #             if v <= 0:
 #                 return
@@ -1380,55 +1377,55 @@
 #                 dfs(self,x,y+1,v + terrain[x][y]-terrain[x][y+1]-obstacle[x][y+1])
 #             if y > 0:
 #                 dfs(self,x,y-1,v + terrain[x][y]-terrain[x][y-1]-obstacle[x][y-1])
-                
+
 #         dfs(self,position[0],position[1],1)
 #         return sorted(self.res)
 
 # sol = Solution()
 # sol.bicycleYard()
 
-# stripe vo1 MutualRank / WishList / ChangePair
-dic = {}
-dic['a'] = ['b','c','d']
-dic['b'] = ['a','c','d']
-dic['c'] = ['d','a']
-dic['d'] = ['a','c']
+# stripe screen 1 MutualRank / WishList / ChangePair
+# dic = {}
+# dic['a'] = ['b','c','d']
+# dic['b'] = ['a','c','d']
+# dic['c'] = ['d','a']
+# dic['d'] = ['a','c']
 
-def hasMutualFirstChoice(name):
-    if name not in dic:
-        return False
+# def hasMutualFirstChoice(name):
+#     if name not in dic:
+#         return False
 
-    fChoice = dic[name][0]
-    return dic[fChoice][0] == name
+#     fChoice = dic[name][0]
+#     return dic[fChoice][0] == name
 
-# set rank
-def hasMutualFirstChoice1(name, index):
-    if name not in dic or index >= len(dic[name]):
-        return False
+# # set rank
+# def hasMutualFirstChoice1(name, index):
+#     if name not in dic or index >= len(dic[name]):
+#         return False
 
-    fChoice = dic[name][index]
-    return dic[fChoice][index] == name
+#     fChoice = dic[name][index]
+#     return dic[fChoice][index] == name
 
-# swap index, index-1
-def hasMutualFirstChoice2(name, index):
-    res = []
+# # swap index, index-1
+# def hasMutualFirstChoice2(name, index):
+#     res = []
 
-    if hasMutualFirstChoice1(name, index):
-        res.append(dic[name][index])
+#     if hasMutualFirstChoice1(name, index):
+#         res.append(dic[name][index])
 
-    if name in dic and index < len(dic[name]):
-        fChoice = dic[name][index-1]
+#     if name in dic and index < len(dic[name]):
+#         fChoice = dic[name][index-1]
 
-        if dic[fChoice][index] == name:
-            res.append(fChoice)
+#         if dic[fChoice][index] == name:
+#             res.append(fChoice)
 
-    return res
+#     return res
 
 # print(hasMutualFirstChoice('d'))
 # print(hasMutualFirstChoice1('a',1))
 # print(hasMutualFirstChoice2('c',1))
 
-# stripe vo2 HTTP Header Parsing
+# stripe screen 2 HTTP Header Parsing
 # Part 1
 
 # In an HTTP request, the Accept-Language header describes the list of
@@ -1469,19 +1466,19 @@ def hasMutualFirstChoice2(name, index):
 # parse_accept_language("en-US", ["en-US", "fr-CA"])
 # returns: ["en-US"]
 
-def headerPase(cLan, sLan):
-    res = []
-    lan_dic = {}
-    cLan = cLan.split(", ")
+# def headerPase(cLan, sLan):
+#     res = []
+#     lan_dic = {}
+#     cLan = cLan.split(", ")
 
-    for lan in sLan:
-        lan_dic[lan] = 1
+#     for lan in sLan:
+#         lan_dic[lan] = 1
 
-    for lan in cLan:
-        if lan in lan_dic:
-            res.append(lan)
+#     for lan in cLan:
+#         if lan in lan_dic:
+#             res.append(lan)
 
-    return res
+#     return res
 
 # print(headerPase("en-US, fr-CA, fr-FR", ["fr-FR", "en-US"]))
 
@@ -1504,19 +1501,19 @@ def headerPase(cLan, sLan):
 # returns: ["fr-FR", "fr-CA"]
 
 
-def headerPase2(cLan, sLan):
-    res = []
-    # lan_dic = {}
-    cLan = cLan.split(", ")
+# def headerPase2(cLan, sLan):
+#     res = []
+#     # lan_dic = {}
+#     cLan = cLan.split(", ")
 
-    # for lan in sLan:å
-    #     lan_dic[lan] = 1
+#     # for lan in sLan:å
+#     #     lan_dic[lan] = 1
 
-    for lan in cLan:
-        for k in sLan:
-            if lan in k and k not in res:
-                res.append(k)
-    return res
+#     for lan in cLan:
+#         for k in sLan:
+#             if lan in k and k not in res:
+#                 res.append(k)
+#     return res
 
 # print(headerPase2("fr-FR, fr", ["en-‍‌‌‌‌‌‌‍‌‍‌‌‌‌‌‌‍‌‌‍US", "fr-CA", "fr-FR"]))
 
@@ -1534,23 +1531,23 @@ def headerPase2(cLan, sLan):
 # parse_accept_language("fr-FR, fr, *", ["en-US", "fr-CA", "fr-FR"])
 # returns: ["fr-FR", "fr-CA", "en-US"]
 
-def headerPase3(cLan, sLan):
-    res = []
-    # lan_dic = {}
-    cLan = cLan.split(", ")
+# def headerPase3(cLan, sLan):
+#     res = []
+#     # lan_dic = {}
+#     cLan = cLan.split(", ")
 
-    # for lan in sLan:
-    #     lan_dic[lan] = 1
+#     # for lan in sLan:
+#     #     lan_dic[lan] = 1
 
-    for lan in cLan:
-        for k in sLan:
-            if (lan in k or lan == '*') and k not in res:
-                res.append(k)
-    return res
+#     for lan in cLan:
+#         for k in sLan:
+#             if (lan in k or lan == '*') and k not in res:
+#                 res.append(k)
+#     return res
 
 # print(headerPase3("fr-FR, fr, *", ["en-US", "fr-CA", "fr-FR"]))
 
-# stripe vo3 Server Remove Penalty
+# stripe screen 3 Server Remove Penalty
 # Throughout this interview, we'll write code to analyze a simple server process uptime log.
 # These logs are much simplified, and are just strings of space separated 0's and 1's.
 # The log is a string of binary digits (e.g. "0 0 1 0"). Each digit corresponds to
@@ -1576,29 +1573,413 @@ def headerPase3(cLan, sLan):
 
 
 # EXAMPLE: Remove a server with log "0 0 1 0"
+#     hour :  | 1 | 2 | 3 | 4 |
+#     log  :  | 0 | 0 | 1 | 0 |
+# remove_at:  0   1   2   3   4   // remove_at being `x` means "server removed before hour `x+1`"
+#             ^               ^
+#             |               |
+#      before hour #1         after hour #4
+
+# Further Examples:
+
+# EXAMPLE:
+
+#    hour :   1 2 3 4     // total penalty = 3  (3 server-up hours after remove)
+#    log  :   0 0 1 0
+#            ^
+#            |
+#          remove_at = 0
+
+#    hour :   1 2 3 4     // total penalty = 1  (1 server-down hour before remove)
+#    log  :   0 0 1 0
+#                    ^
+#                    |
+#                  remove_at = 4
+
+# Note that for a server log of length `n` hours, the remove_at variable can range from 0,
+# meaning "before the first hour" to n, meaning "after the final hour".
+
+# 1a) Write a function: compute_penalty, that computes the total penalty, given a server log
+# (as a string) AND a time at which we removed the server from the network (call that  variable
+# remove_at). In addition to writing this function, you should use tests to demonstrate
+# that it's correct.
+
+# ## Examples
+# compute_penalty("0 0 1 0", 0) should return 3
+# compute_penalty("0 0 1 0", 4) should return 1
+
+# def compute_penalty(serverLog, removeTime):
+#     penalty = 0
+#     serverLog = serverLog.split(" ")
+
+#     for t in range(removeTime):
+#         if serverLog[t] == "1":
+#             penalty += 1
+
+#     for t in range(removeTime,len(serverLog)):
+#         if serverLog[t] == "0":
+#             penalty += 1
+
+#     return penalty
+
+# 1b) Use your answer for compute_penalty to write another function:
+# find_best_removal_time, that returns the best remove_at hour, given a server log.
+# Again, you should use tests to demonstrate that it's correct.
+
+# ## Example
+# find_best_removal_time("0 0 1 1") should return 2
+
+# def find_best_removal_time(serverLog):
+#     serverLog = serverLog.split(" ")
+
+#     res = 0
+#     minPenalty = len([i for i in serverLog if i == "0"])
+#     penalty = minPenalty
+
+#     for i, log in enumerate(serverLog):
+#         if log == "1":
+#             penalty += 1
+#         else:
+#             penalty -= 1
+#         if penalty < minPenalty:
+#             minPenalty = penalty
+#             res = i+1
+
+#     return res
+
+# 2a) Now that we're able to analyze single server logs, let's analyze some aggregate logs.
+# Aggregate logs are text files that contain lots of logs. The files contain only
+# BEGIN, END, 1, 0, spaces and newlines. Aggregate logs include some servers that aren’t
+# actually finished, so we might have some BEGINs scattered throughout. We'll only consider
+# inner BEGINs and ENDs to be valid log sequences. Put another way, any sequence of 0s and 1s
+# surrounded by BEGIN and END forms a valid sequence. For example, the sequence
+#  "BEGIN BEGIN BEGIN 1 1 BEGIN 0 0 END 1 1 BEGIN" has only one valid sequence "BEGIN 0 0 END".
+
+# Write a function get_best_removal_times, that takes the file's contents as a parameter,
+# and returns an ar‍‌‌‌‌‌‌‍‌‍‌‌‌‌‌‌‍‌‌‍ray of best removal hours for every valid server log in that file.
+
+# Note: that logs can span 1 or many lines.
+
+# Again, you should use tests to demonstrate that your solution is correct.
+
+# ## Example
+# get_best_removal_times("BEGIN BEGIN \nBEGIN 1 1 BEGIN 0 0\n END 1 1 BEGIN") should return
+# an array: [2]
+
+# def analyse_agg_logs(aLogs):
+#     aLogs = aLogs.split(" ")
+#     aLogs = [s.replace("\n","") for s in aLogs]
+
+#     valid_log_list = []
+#     res = []
+
+#     i = 0
+#     while i < len(aLogs):
+#         if aLogs[i] == "BEGIN":
+#             i += 1
+#             tmpLog = []
+#             while i < len(aLogs):
+#                 word = aLogs[i]
+#                 if word == "BEGIN":
+#                     break
+#                 elif word == "END":
+#                     valid_log_list.append(tmpLog)
+#                 else:
+#                     tmpLog.append(word)
+#                 i += 1
+#         else:
+#             i += 1
+
+#     for validLog in valid_log_list:
+#         tmpLog = ""
+#         for word in validLog:
+#             tmpLog += word + " "
+#         res.append(find_best_removal_time(tmpLog))
+
+#     return res
 
 
+# stripe screen Bot Defender
 
 
+# import unittest
+
+# class TestStringMethods(unittest.TestCase):
+
+#     def test_compute_penalty_low(self):
+#         self.assertEqual(compute_penalty("0 0 1 0", 0), 3)
+
+#     def test_compute_penalty_high(self):
+#         self.assertEqual(compute_penalty("0 0 1 0", 4), 1)
+
+#     def test_compute_penalty_mid(self):
+#         self.assertEqual(compute_penalty("0 0 1 0", 2), 1)
+
+#     def test_find_best_removal_time(self):
+#         self.assertEqual(find_best_removal_time("0 0 1 1"), 2)
+
+#     def test_analyse_agg_logs(self):
+#         self.assertEqual(analyse_agg_logs("BEGIN BEGIN \nBEGIN 1 1 BEGIN 0 0\n END 1 1 BEGIN"), [2])
+
+# def test_upper(self):
+#     self.assertEqual('foo'.upper(), 'FOO')
+
+# def test_isupper(self):
+#     self.assertTrue('FOO'.isupper())
+#     self.assertFalse('Foo'.isupper())
+
+# def test_split(self):
+#     s = 'hello world'
+#     self.assertEqual(s.split(), ['hello', 'world'])
+#     # check that s.split fails when the separator is not a string
+#     with self.assertRaises(TypeError):
+#         s.split(2)
+
+# unittest.main()
 
 
+# class CustomError(Exception):
+#     def __init__(self,ErrorInfo):
+#         super().__init__(self) #初始化父类
+#         self.errorinfo=ErrorInfo
+#     def __str__(self):
+#         return self.errorinfo
 
-import unittest
+# if __name__ == '__main__':
+#     try:
+#         raise CustomError('客户异常')
+#     except CustomError as e:
+#         print(e)
 
-class TestStringMethods(unittest.TestCase):
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+# class Solution:
+#     def minTransfers(self, transactions: List[List[int]]) -> int:
 
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
+#         tuplify = lambda balance: tuple((k, v) for k, v in balance.items())
 
-    def test_split(self):
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split(2)
+#         @lru_cache(None)
+#         def dfs(balances):
+#             if not balances:
+#                 return 0
+#             res = math.inf
+#             balances = {k: v for k, v in balances}
+#             for size in range(2, len(balances) + 1):
+#                 # pruning trick
+#                 if res <= size - 1: # added
+#                     break
 
-unittest.main()
+#                 for group in itertools.combinations(balances.keys(), size):
+#                     if sum(balances[k] for k in group) == 0:
+#                         remaining_balances = {k: v for k, v in balances.items() if k not in group}
+#                         res = min(res, size - 1 + dfs(tuplify(remaining_balances)))
+#                         # pruning trick
+#                         if len(group) == 2: # added
+#                             return res
+
+#             return res
+
+#         balances = collections.defaultdict(int)
+#         for u, v, z in transactions:
+#             balances[u] += z
+#             balances[v] -= z
+#         return dfs(tuplify({k: v for k, v in balances.items() if v}))
+
+
+# LRU Cache
+# class DLinkedNode:
+
+#     def __init__(self):
+#         self.value = 0
+#         self.prev = None
+#         self.next = None
+
+# class DLinkedNode:
+
+#     def __init__(self):
+#         self.key = 0
+#         self.value = 0
+#         self.prev = None
+#         self.next = None
+
+# class LRUCache:
+
+#     def _remove_node(self, node):
+#         node.prev.next, node.next.prev = node.next, node.prev
+
+#     def _move_to_head(self, node):
+#         node.prev, node.next = self.head, self.head.next
+#         self.head.next.prev, self.head.next = node, node
+
+#     def __init__(self, capacity: int):
+#         self.capacity = capacity
+#         self.size = 0
+#         self.cache = {}
+#         self.head = DLinkedNode()
+#         self.tail = DLinkedNode()
+#         self.head.next, self.tail.prev = self.tail, self.head
+
+#     def get(self, key: int) -> int:
+#         if key in self.cache:
+#             node = self.cache[key]
+#             self._remove_node(node)
+#             self._move_to_head(node)
+
+#             return node.value
+#         else:
+#             return -1
+
+#     def put(self, key: int, value: int) -> None:
+#         if key in self.cache:
+#             node = self.cache[key]
+#             self._remove_node(node)
+#             self._move_to_head(node)
+#         else:
+#             newNode = DLinkedNode()
+#             newNode.key = key
+#             newNode.value = value
+#             self.cache[key] = newNode
+#             self._move_to_head(newNode)
+#             self.size += 1
+
+#             if self.size > self.capacity:
+#                 removeNode = self.tail.prev
+#                 self._remove_node(removeNode)
+#                 del self.cache[removeNode.key]
+#                 self.size -= 1
+
+# # Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(2)
+# obj.put(1,1)
+# obj.put(2,2)
+# print(obj.get(1))
+# obj.put(3,3)
+# print(obj.get(2))
+# obj.put(4,4)
+# print(obj.get(1))
+# print(obj.get(3))
+# print(obj.get(4))
+
+# # ["LRUCache","put","put","get","put","get","put","get","get","get"]
+# # [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
+
+# doordash compare tree
+class Node:
+    def __init__(self, n, k, v):
+        self.name = n
+        self.key = k
+        self.value = v
+        self.children = []
+
+def get_node_count(root):
+    if root == None:
+        return 0
+    res = 1
+    for node in root.children:
+        res += get_node_count(node)
+    return res
+
+
+def compute_diff(old_tree, new_tree) -> int:
+    if old_tree is None and new_tree is None:
+        return 0
+    elif old_tree is None:
+        return get_node_count(new_tree)
+    elif new_tree is None:
+        return get_node_count(old_tree)
+    elif old_tree.key != new_tree.key:
+        return get_node_count(old_tree) + get_node_count(new_tree)
+
+
+    ret = 0
+    if old_tree.value != new_tree.value:
+        ret += 1
+
+    new_tree_children = {c.key: c for c in new_tree.children}
+    for old_child in old_tree.children:
+        ret += compute_diff(old_child, new_tree_children.pop(old_child.key, None))
+    for remaining_new_tree_child in new_tree_children.values():
+        ret += get_node_count(remaining_new_tree_child)
+    return ret
+
+
+a = Node("a", 1, True)
+b = Node("b", 2, True)
+c = Node("c", 3, True)
+d = Node("d", 4, True)
+e = Node("e", 5, True)
+f = Node("f", 6, True)
+
+a.children.append(b)
+a.children.append(c)
+
+b.children.append(d)
+b.children.append(e)
+
+c.children.append(f)
+
+
+a1 = Node("a", 1, True)
+# b1 = Node("b", 2, True)
+c1 = Node("c", 3, False)
+# d1 = Node("d", 4, True)
+# e1 = Node("e", 5, True)
+f1 = Node("f", 66, True)
+# g1 = Node("g", 7, False)
+
+# a1.children.append(b1)
+a1.children.append(c1)
+
+# b1.children.append(d1)
+# b1.children.append(e1)
+# b1.children.append(f1)
+
+c1.children.append(f1)
+
+res = compute_diff(a, a1)
+print(res)
+
+
+# Python 3 program for the above approach
+# Python3 program to check if two
+# strings are k anagram or not.
+MAX_CHAR = 26
+
+# Function to check that is
+# k-anagram or not
+def arekAnagrams(str1, str2, k) :
+
+	# If both strings are not of equal
+	# length then return false
+	n = len(str1)
+	if (len(str2)!= n) :
+		return False
+
+	count_dict = [0] * MAX_CHAR
+
+	# Store the occurrence of all
+	# characters in a hash_array
+	for i in range(n):
+		count_dict[ord(str1[i]) - ord('a')] += 1
+		count_dict[ord(str2[i]) - ord('a')] -= 1
+
+	count = 0
+
+	# Count number of characters that
+	# are different in both strings
+	for i in range(MAX_CHAR):
+		if (count_dict[i] > 0) :
+			count += count_dict[i]
+
+	# Return true if count is less
+	# than or equal to k
+	return (count <= k)
+
+# Driver Code
+if __name__ == '__main__':
+	str1 = "geeks"
+	str2 = "eggkf"
+	k = 2
+	if (arekAnagrams(str1, str2, k)):
+		print("Yes")
+	else:
+		print("No")
