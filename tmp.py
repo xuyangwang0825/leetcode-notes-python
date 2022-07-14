@@ -1863,123 +1863,148 @@
 # # [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
 
 # doordash compare tree
-class Node:
-    def __init__(self, n, k, v):
-        self.name = n
-        self.key = k
-        self.value = v
-        self.children = []
+# class Node:
+#     def __init__(self, n, k, v):
+#         self.name = n
+#         self.key = k
+#         self.value = v
+#         self.children = []
 
-def get_node_count(root):
-    if root == None:
-        return 0
-    res = 1
-    for node in root.children:
-        res += get_node_count(node)
-    return res
-
-
-def compute_diff(old_tree, new_tree) -> int:
-    if old_tree is None and new_tree is None:
-        return 0
-    elif old_tree is None:
-        return get_node_count(new_tree)
-    elif new_tree is None:
-        return get_node_count(old_tree)
-    elif old_tree.key != new_tree.key:
-        return get_node_count(old_tree) + get_node_count(new_tree)
+# def get_node_count(root):
+#     if root == None:
+#         return 0
+#     res = 1
+#     for node in root.children:
+#         res += get_node_count(node)
+#     return res
 
 
-    ret = 0
-    if old_tree.value != new_tree.value:
-        ret += 1
-
-    new_tree_children = {c.key: c for c in new_tree.children}
-    for old_child in old_tree.children:
-        ret += compute_diff(old_child, new_tree_children.pop(old_child.key, None))
-    for remaining_new_tree_child in new_tree_children.values():
-        ret += get_node_count(remaining_new_tree_child)
-    return ret
-
-
-a = Node("a", 1, True)
-b = Node("b", 2, True)
-c = Node("c", 3, True)
-d = Node("d", 4, True)
-e = Node("e", 5, True)
-f = Node("f", 6, True)
-
-a.children.append(b)
-a.children.append(c)
-
-b.children.append(d)
-b.children.append(e)
-
-c.children.append(f)
+# def compute_diff(old_tree, new_tree) -> int:
+#     if old_tree is None and new_tree is None:
+#         return 0
+#     elif old_tree is None:
+#         return get_node_count(new_tree)
+#     elif new_tree is None:
+#         return get_node_count(old_tree)
+#     elif old_tree.key != new_tree.key:
+#         return get_node_count(old_tree) + get_node_count(new_tree)
 
 
-a1 = Node("a", 1, True)
-# b1 = Node("b", 2, True)
-c1 = Node("c", 3, False)
-# d1 = Node("d", 4, True)
-# e1 = Node("e", 5, True)
-f1 = Node("f", 66, True)
-# g1 = Node("g", 7, False)
+#     ret = 0
+#     if old_tree.value != new_tree.value:
+#         ret += 1
 
-# a1.children.append(b1)
-a1.children.append(c1)
-
-# b1.children.append(d1)
-# b1.children.append(e1)
-# b1.children.append(f1)
-
-c1.children.append(f1)
-
-res = compute_diff(a, a1)
-print(res)
+#     new_tree_children = {c.key: c for c in new_tree.children}
+#     for old_child in old_tree.children:
+#         ret += compute_diff(old_child, new_tree_children.pop(old_child.key, None))
+#     for remaining_new_tree_child in new_tree_children.values():
+#         ret += get_node_count(remaining_new_tree_child)
+#     return ret
 
 
-# Python 3 program for the above approach
-# Python3 program to check if two
-# strings are k anagram or not.
-MAX_CHAR = 26
+# a = Node("a", 1, True)
+# b = Node("b", 2, True)
+# c = Node("c", 3, True)
+# d = Node("d", 4, True)
+# e = Node("e", 5, True)
+# f = Node("f", 6, True)
 
-# Function to check that is
-# k-anagram or not
-def arekAnagrams(str1, str2, k) :
+# a.children.append(b)
+# a.children.append(c)
 
-	# If both strings are not of equal
-	# length then return false
-	n = len(str1)
-	if (len(str2)!= n) :
-		return False
+# b.children.append(d)
+# b.children.append(e)
 
-	count_dict = [0] * MAX_CHAR
+# c.children.append(f)
 
-	# Store the occurrence of all
-	# characters in a hash_array
-	for i in range(n):
-		count_dict[ord(str1[i]) - ord('a')] += 1
-		count_dict[ord(str2[i]) - ord('a')] -= 1
 
-	count = 0
+# a1 = Node("a", 1, True)
+# # b1 = Node("b", 2, True)
+# c1 = Node("c", 3, False)
+# # d1 = Node("d", 4, True)
+# # e1 = Node("e", 5, True)
+# f1 = Node("f", 66, True)
+# # g1 = Node("g", 7, False)
 
-	# Count number of characters that
-	# are different in both strings
-	for i in range(MAX_CHAR):
-		if (count_dict[i] > 0) :
-			count += count_dict[i]
+# # a1.children.append(b1)
+# a1.children.append(c1)
 
-	# Return true if count is less
-	# than or equal to k
-	return (count <= k)
+# # b1.children.append(d1)
+# # b1.children.append(e1)
+# # b1.children.append(f1)
 
-# Driver Code
-if __name__ == '__main__':
-	str1 = "geeks"
-	str2 = "eggkf"
-	k = 2
-	if (arekAnagrams(str1, str2, k)):
-		print("Yes")
-	else:
-		print("No")
+# c1.children.append(f1)
+
+# res = compute_diff(a, a1)
+# print(res)
+
+
+# # Python 3 program for the above approach
+# # Python3 program to check if two
+# # strings are k anagram or not.
+# MAX_CHAR = 26
+
+# # Function to check that is
+# # k-anagram or not
+# def arekAnagrams(str1, str2, k) :
+
+# 	# If both strings are not of equal
+# 	# length then return false
+# 	n = len(str1)
+# 	if (len(str2)!= n) :
+# 		return False
+
+# 	count_dict = [0] * MAX_CHAR
+
+# 	# Store the occurrence of all
+# 	# characters in a hash_array
+# 	for i in range(n):
+# 		count_dict[ord(str1[i]) - ord('a')] += 1
+# 		count_dict[ord(str2[i]) - ord('a')] -= 1
+
+# 	count = 0
+
+# 	# Count number of characters that
+# 	# are different in both strings
+# 	for i in range(MAX_CHAR):
+# 		if (count_dict[i] > 0) :
+# 			count += count_dict[i]
+
+# 	# Return true if count is less
+# 	# than or equal to k
+# 	return (count <= k)
+
+# # Driver Code
+# if __name__ == '__main__':
+# 	str1 = "geeks"
+# 	str2 = "eggkf"
+# 	k = 2
+# 	if (arekAnagrams(str1, str2, k)):
+# 		print("Yes")
+# 	else:
+# 		print("No")
+
+# akuna
+# def getMaxProfit(pnl, k):
+#     size = len(pnl)
+#     max_so_far = pnl[0]
+#     l = 0
+#     max_ending_here = 0
+
+#     for i in range(0, size):
+#         max_ending_here = max_ending_here + pnl[i]
+#         if i - l + 1 > k:
+#             max_ending_here -= pnl[l]
+#             l += 1
+#         if max_ending_here < 0:
+#             max_ending_here = 0
+#             l = i + 1
+
+#         elif (max_so_far < max_ending_here):
+#             max_so_far = max_ending_here
+
+#     return max_so_far
+
+# print(getMaxProfit([2,5,-7,8,-6,4,1,-9], 5))
+# print(getMaxProfit([4,3,-2,9,-4,2,7], 6))
+# print(getMaxProfit([-4, 10, 100], 3))
