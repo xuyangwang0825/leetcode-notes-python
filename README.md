@@ -254,6 +254,9 @@
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0415. Add Strings](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/string/0415.%20Add%20Strings.md)|2021.07.25|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0455. Assign Cookies](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/greedy%20method/0455.%20Assign%20Cookies.md)|2021.07.26|
 |![easytag](https://img.shields.io/badge/-easy-brightgreen)|[0088. Merge Sorted Array](https://github.com/xuyangwang0825/leetcode-notes-python/blob/master/double%20pointers/0088.%20Merge%20Sorted%20Array.md)|2021.07.27|
+| **2022.08** |
+|![medium tag](https://img.shields.io/badge/-medium-yellow)|[0659. Split Array into Consecutive Subsequences](https://github.com/Diobrandokill/leetcode-notes-python/blob/master/greedy%20method/0659.%20Split%20Array%20into%20Consecutive%20Subsequences.md)|2022.08.19|
+
 
 ### waitlist
 | Difficulty | Title | Date |

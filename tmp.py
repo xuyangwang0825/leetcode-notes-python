@@ -2008,3 +2008,22 @@
 # print(getMaxProfit([2,5,-7,8,-6,4,1,-9], 5))
 # print(getMaxProfit([4,3,-2,9,-4,2,7], 6))
 # print(getMaxProfit([-4, 10, 100], 3))
+
+
+# import copy
+
+# a = [[1,2], [1], [3]]
+# d = copy.deepcopy(a)
+# b = a.copy()
+# c = a
+# b[0][0] = 3
+
+# def check(num):
+#     if num == '2':
+#         return True
+#     else:
+#         return False
+
+# a = filter(check, "123")
+
+# print(list(a))
